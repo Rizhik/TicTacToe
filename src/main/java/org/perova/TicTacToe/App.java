@@ -1,16 +1,15 @@
 package org.perova.TicTacToe;
 
 public class App {
-	
 
 	protected boolean isFieldSizeCorrect(int field[][]) {
 		for (int raw = 0; raw < field.length; raw++) {
-			for (int column = 0; column < field[raw].length; column++) {
-				if (field.length != field[raw].length) {
-					System.out.println("!!! We have a wrong field size !!!");
-					return false;
-				}
+
+			if (field.length != field[raw].length) {
+				System.out.println("!!! We have a wrong field size !!!");
+				return false;
 			}
+
 		}
 
 		return true;
@@ -26,15 +25,32 @@ public class App {
 	}
 
 	protected int checkCrossesForWiner(int[][] field) {
-		if (field[0][0] == field[1][1] && field[0][0] == field[2][2]) {
+		boolean flag = true;
+
+		for (int row = 0, column = 0; row < 2 && column < 2; row++, column++) {
+			if (field[row][column] != field[row + 1][column + 1]) {
+				flag = false;
+			}
+		}
+
+		if (flag == true) {
 			System.out.println("Winer is " + field[0][0]);
 			return field[0][0];
 		}
+		
+		flag = true;
 
-		if (field[0][2] == field[1][1] && field[2][0] == field[0][2]) {
+		for (int row = 2, column = 0; row >= 0 && column < 2; row--, column++) {
+			if (field[row][column] != field[row - 1][column + 1]) {
+				flag = false;
+			}
+		}
+
+		if (flag == true) {
 			System.out.println("Winer is " + field[0][2]);
 			return field[0][2];
 		}
+
 		return 0;
 	}
 
@@ -118,7 +134,7 @@ public class App {
 
 	public static void main(String[] args) {
 		App myGame = new App();
-		int[][] field = new int[][] { { 0, 1, 0 }, { 2, 1, 0 }, { 2, 0, 2 } };
+		int[][] field = new int[][] { { 0, 1, 1 }, { 2, 1, 0 }, { 1, 0, 2 } };
 		myGame.TicTacToe(field);
 	}
 }
