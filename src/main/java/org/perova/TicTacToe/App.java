@@ -18,7 +18,7 @@ public class App {
 	protected void printField(int field[][]) {
 		for (int raw = 0; raw < field.length; raw++) {
 			for (int column = 0; column < field[raw].length; column++) {
-				System.out.print(field[raw][column]);
+				System.out.print(field[raw][column] + " ");
 			}
 			System.out.println();
 		}
@@ -34,12 +34,12 @@ public class App {
 			numberOfElements++;
 
 			int stepCounter = 1;
-			while (stepCounter != 3) {
+			while (stepCounter != 5) {
 				if (((currentRow + 1) < field.length)
-						&& (currentColumn + step >= 0)
-						&& ((currentColumn + step) < field[currentRow].length)
+						&& (currentColumn + step*stepCounter >= 0)
+						&& ((currentColumn + step*stepCounter) < field[currentRow].length)
 						&& (currentElement == field[currentRow + 1][currentColumn
-								+ step])) {
+								+ step*stepCounter])) {
 					numberOfElements++;
 
 				} else {
@@ -48,9 +48,9 @@ public class App {
 				stepCounter++;
 			}
 
-			if (numberOfElements == 3) {
+			if (numberOfElements == 5) {
 				return currentElement;
-			}
+			} 
 
 		}
 		return 0;
@@ -88,7 +88,7 @@ public class App {
 
 					numberOfElements++;
 
-					if (numberOfElements == 3) {
+					if (numberOfElements == 5) {
 
 						return currentElement;
 
@@ -119,7 +119,7 @@ public class App {
 
 					numberOfElements++;
 
-					if (numberOfElements == 3) {
+					if (numberOfElements == 5) {
 
 						return currentElement;
 
@@ -149,20 +149,20 @@ public class App {
 			// Check crosses for winer
 			int crossesWinner = game.checkCrossesForWiner(field);
 			if (crossesWinner != 0) {
-				System.out.println("Winner is " + crossesWinner);
+				System.out.println("CROSSES_Winner is " + crossesWinner);
 			}
 
 			// Check rows for winner
 			int rowWinner = game.checkRowsForWinner(field);
 			if (rowWinner != 0) {
-				System.out.println("Winner is " + rowWinner);
+				System.out.println("ROW_Winner is " + rowWinner);
 			}
 
 			// Check columns for winner
 			int columnWinner = game.checkColumnsForWinner(field);
 			if (columnWinner != 0) {
 
-				System.out.println("Winner is " + columnWinner);
+				System.out.println("COLUMN_Winner is " + columnWinner);
 
 			}
 
@@ -175,7 +175,18 @@ public class App {
 
 	public static void main(String[] args) {
 		App myGame = new App();
-		int[][] field = new int[][] { { 2, 0, 1 }, { 2, 1, 1 }, { 1, 1, 2 } };
+		 int[][] field = new int[][] {
+		 { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
+		 { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
+		 { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
+		 { 0, 0, 2, 0, 0, 0, 0, 0, 0, 0 },
+		 { 0, 0, 1, 2, 2, 0, 0, 0, 0, 0 },
+		 { 0, 0, 1, 1, 2, 0, 0, 0, 0, 0 },
+		 { 0, 0, 0, 0, 0, 2, 2, 0, 0, 0 },
+		 { 0, 0, 1, 1, 1, 1, 2, 0, 0, 0 },
+		 { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
+		 { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 }
+		 };
 		myGame.TicTacToe(field);
 	}
 }
