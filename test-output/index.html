@@ -23,7 +23,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 7 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 6 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -90,7 +90,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">29 methods, 7 failed,   22 passed</span>
+                    <span class="method-stats">29 methods, 6 failed,   23 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -101,17 +101,12 @@
                     <div class="method-list-content failed suite-Default_suite">
                       <span>
                         <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="org.perova.TicTacToe.AppTest" hash-for-method="test_checkColumnsForWinner_WinnerIsInTheRow">test_checkColumnsForWinner_WinnerIsInTheRow</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="org.perova.TicTacToe.AppTest" hash-for-method="test_checkCrossesForWinnerWinnerIsInTheRightCrossing">test_checkCrossesForWinnerWinnerIsInTheRightCrossing</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="failed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="org.perova.TicTacToe.AppTest" hash-for-method="test_checkCrossesForWinner_WinnerIsInTheLeftCrossing">test_checkCrossesForWinner_WinnerIsInTheLeftCrossing</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="org.perova.TicTacToe.AppTest" hash-for-method="test_checkCrossesForWinner_WinnerIsInTheRightCrossing">test_checkCrossesForWinner_WinnerIsInTheRightCrossing</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -171,6 +166,11 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="org.perova.TicTacToe.AppTest" hash-for-method="test_checkColumnsForWinner_WinnerIsInTheCrossing">test_checkColumnsForWinner_WinnerIsInTheCrossing</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="org.perova.TicTacToe.AppTest" hash-for-method="test_checkColumnsForWinner_WinnerIsInTheRow">test_checkColumnsForWinner_WinnerIsInTheRow</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -273,86 +273,6 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="test_checkColumnsForWinner_WinnerIsInTheRow">
-                  </a> <!-- test_checkColumnsForWinner_WinnerIsInTheRow -->
-                  <span class="method-name">test_checkColumnsForWinner_WinnerIsInTheRow</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected:&lt;0&gt; but was:&lt;1&gt;
-	at org.testng.AssertJUnit.fail(AssertJUnit.java:59)
-	at org.testng.AssertJUnit.failNotEquals(AssertJUnit.java:364)
-	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:80)
-	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:245)
-	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:252)
-	at org.perova.TicTacToe.AppTest.test_checkColumnsForWinner_WinnerIsInTheRow(AppTest.java:414)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:483)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="test_checkCrossesForWinnerWinnerIsInTheRightCrossing">
-                  </a> <!-- test_checkCrossesForWinnerWinnerIsInTheRightCrossing -->
-                  <span class="method-name">test_checkCrossesForWinnerWinnerIsInTheRightCrossing</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected:&lt;2&gt; but was:&lt;0&gt;
-	at org.testng.AssertJUnit.fail(AssertJUnit.java:59)
-	at org.testng.AssertJUnit.failNotEquals(AssertJUnit.java:364)
-	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:80)
-	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:245)
-	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:252)
-	at org.perova.TicTacToe.AppTest.test_checkCrossesForWinnerWinnerIsInTheRightCrossing(AppTest.java:467)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:483)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="test_checkCrossesForWinner_WinnerIsInTheLeftCrossing">
                   </a> <!-- test_checkCrossesForWinner_WinnerIsInTheLeftCrossing -->
                   <span class="method-name">test_checkCrossesForWinner_WinnerIsInTheLeftCrossing</span>
@@ -363,6 +283,46 @@
 	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:245)
 	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:252)
 	at org.perova.TicTacToe.AppTest.test_checkCrossesForWinner_WinnerIsInTheLeftCrossing(AppTest.java:450)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_checkCrossesForWinner_WinnerIsInTheRightCrossing">
+                  </a> <!-- test_checkCrossesForWinner_WinnerIsInTheRightCrossing -->
+                  <span class="method-name">test_checkCrossesForWinner_WinnerIsInTheRightCrossing</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected:&lt;2&gt; but was:&lt;0&gt;
+	at org.testng.AssertJUnit.fail(AssertJUnit.java:59)
+	at org.testng.AssertJUnit.failNotEquals(AssertJUnit.java:364)
+	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:80)
+	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:245)
+	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:252)
+	at org.perova.TicTacToe.AppTest.test_checkCrossesForWinner_WinnerIsInTheRightCrossing(AppTest.java:467)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -603,6 +563,13 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
+                  <a name="test_checkColumnsForWinner_WinnerIsInTheRow">
+                  </a> <!-- test_checkColumnsForWinner_WinnerIsInTheRow -->
+                  <span class="method-name">test_checkColumnsForWinner_WinnerIsInTheRow</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="test_checkCrossesForWinner_NoWinners">
                   </a> <!-- test_checkCrossesForWinner_NoWinners -->
                   <span class="method-name">test_checkCrossesForWinner_NoWinners</span>
@@ -718,7 +685,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/private/var/folders/6z/k4c1lp0n619fm6rs07mt_b600000gp/T/testng-eclipse-1800595984/testng-customsuite.xml</span>
+            <span class="header-content">/private/var/folders/6z/k4c1lp0n619fm6rs07mt_b600000gp/T/testng-eclipse--1412375851/testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -773,15 +740,15 @@ data.setCell(0, 1, 'test_IsFieldSizeCorrect_CorrectFieldSize')
 data.setCell(0, 2, 'org.perova.TicTacToe.AppTest')
 data.setCell(0, 3, 21);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'test_goTo_Right_JustOneElementInLine')
+data.setCell(1, 1, 'test_checkCrossesForWinner_WinnerIsInTheLeftCrossing')
 data.setCell(1, 2, 'org.perova.TicTacToe.AppTest')
 data.setCell(1, 3, 2);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'test_checkRowsForWinner_WinnerIsInTheLastRow')
+data.setCell(2, 1, 'test_goTo_Left_CurrentCellIsEmpty_MakeStepOutOfBoundary')
 data.setCell(2, 2, 'org.perova.TicTacToe.AppTest')
 data.setCell(2, 3, 1);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'test_checkCrossesForWinner_NoWinners')
+data.setCell(3, 1, 'test_checkColumnsForWinner_WinnerIsInTheRow')
 data.setCell(3, 2, 'org.perova.TicTacToe.AppTest')
 data.setCell(3, 3, 1);
 data.setCell(4, 0, 4)
@@ -789,67 +756,67 @@ data.setCell(4, 1, 'test_checkColumnsForWinner_NoWinners')
 data.setCell(4, 2, 'org.perova.TicTacToe.AppTest')
 data.setCell(4, 3, 1);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'test_goTo_Right_CurrentCellIsEmpty_MakeStepOutOfBoundary')
+data.setCell(5, 1, 'test_checkRowsForWinner_WinnerIsInTheColumn')
 data.setCell(5, 2, 'org.perova.TicTacToe.AppTest')
 data.setCell(5, 3, 1);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'test_checkCrossesForWinner_WinnerIsInTheColumn')
+data.setCell(6, 1, 'test_checkRowsForWinner_WinnerIsInTheLastRow')
 data.setCell(6, 2, 'org.perova.TicTacToe.AppTest')
 data.setCell(6, 3, 1);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'test_checkColumnsForWinner_WinnerIsInThe3rdColumn')
+data.setCell(7, 1, 'test_checkRowsForWinner_NoWinners')
 data.setCell(7, 2, 'org.perova.TicTacToe.AppTest')
 data.setCell(7, 3, 1);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'test_checkColumnsForWinner_WinnerIsInTheCrossing')
+data.setCell(8, 1, 'test_checkRowsForWinner_WinnerIsInThe1stRow')
 data.setCell(8, 2, 'org.perova.TicTacToe.AppTest')
 data.setCell(8, 3, 1);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'test_goTo_Left_CurrentCellIsEmpty_MakeStepOutOfBoundary')
+data.setCell(9, 1, 'test_checkColumnsForWinner_WinnerIsInThe3rdColumn')
 data.setCell(9, 2, 'org.perova.TicTacToe.AppTest')
 data.setCell(9, 3, 1);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'test_checkRowsForWinner_NoWinners')
+data.setCell(10, 1, 'test_checkCrossesForWinner_NoWinners')
 data.setCell(10, 2, 'org.perova.TicTacToe.AppTest')
 data.setCell(10, 3, 1);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'test_checkRowsForWinner_WinnerIsInTheCrossing')
+data.setCell(11, 1, 'test_goTo_Right_JustFourElementInLine')
 data.setCell(11, 2, 'org.perova.TicTacToe.AppTest')
 data.setCell(11, 3, 1);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'test_checkColumnsForWinner_WinnerIsInThe1stColumn')
+data.setCell(12, 1, 'test_goTo_Right_JustOneElementInLine')
 data.setCell(12, 2, 'org.perova.TicTacToe.AppTest')
 data.setCell(12, 3, 1);
 data.setCell(13, 0, 13)
-data.setCell(13, 1, 'test_checkCrossesForWinnerWinnerIsInTheRightCrossing')
+data.setCell(13, 1, 'test_goTo_Left_JustOneElementInLine')
 data.setCell(13, 2, 'org.perova.TicTacToe.AppTest')
 data.setCell(13, 3, 1);
 data.setCell(14, 0, 14)
-data.setCell(14, 1, 'test_checkColumnsForWinner_WinnerIsInTheRow')
+data.setCell(14, 1, 'test_checkCrossesForWinner_WinnerIsInTheRow')
 data.setCell(14, 2, 'org.perova.TicTacToe.AppTest')
 data.setCell(14, 3, 1);
 data.setCell(15, 0, 15)
-data.setCell(15, 1, 'test_goTo_Left_OneIsAWinnerInCrossing')
+data.setCell(15, 1, 'test_checkColumnsForWinner_WinnerIsInThe1stColumn')
 data.setCell(15, 2, 'org.perova.TicTacToe.AppTest')
 data.setCell(15, 3, 1);
 data.setCell(16, 0, 16)
-data.setCell(16, 1, 'test_goTo_Right_OneIsAWinnerInLine')
+data.setCell(16, 1, 'test_goTo_Left_TwoIsAWinnerInCrossing')
 data.setCell(16, 2, 'org.perova.TicTacToe.AppTest')
 data.setCell(16, 3, 1);
 data.setCell(17, 0, 17)
-data.setCell(17, 1, 'test_checkColumnsForWinnerWinnerIsInTheLastColumn')
+data.setCell(17, 1, 'test_goTo_Right_TwoIsAWinnerInLine')
 data.setCell(17, 2, 'org.perova.TicTacToe.AppTest')
-data.setCell(17, 3, 0);
+data.setCell(17, 3, 1);
 data.setCell(18, 0, 18)
-data.setCell(18, 1, 'test_goTo_Right_JustFourElementInLine')
+data.setCell(18, 1, 'test_checkCrossesForWinner_WinnerIsInTheRightCrossing')
 data.setCell(18, 2, 'org.perova.TicTacToe.AppTest')
-data.setCell(18, 3, 0);
+data.setCell(18, 3, 1);
 data.setCell(19, 0, 19)
-data.setCell(19, 1, 'test_isFieldSizeCorrect_IncorrectFieldSize')
+data.setCell(19, 1, 'test_checkRowsForWinner_WinnerIsInTheCrossing')
 data.setCell(19, 2, 'org.perova.TicTacToe.AppTest')
 data.setCell(19, 3, 0);
 data.setCell(20, 0, 20)
-data.setCell(20, 1, 'test_checkCrossesForWinner_WinnerIsInTheRow')
+data.setCell(20, 1, 'test_checkCrossesForWinner_WinnerIsInTheColumn')
 data.setCell(20, 2, 'org.perova.TicTacToe.AppTest')
 data.setCell(20, 3, 0);
 data.setCell(21, 0, 21)
@@ -857,38 +824,38 @@ data.setCell(21, 1, 'test_checkRowsForWinner_WinnerIsInThe3rdRow')
 data.setCell(21, 2, 'org.perova.TicTacToe.AppTest')
 data.setCell(21, 3, 0);
 data.setCell(22, 0, 22)
-data.setCell(22, 1, 'test_goTo_Left_JustOneElementInLine')
+data.setCell(22, 1, 'test_goTo_Right_CurrentCellIsEmpty_MakeStepOutOfBoundary')
 data.setCell(22, 2, 'org.perova.TicTacToe.AppTest')
 data.setCell(22, 3, 0);
 data.setCell(23, 0, 23)
-data.setCell(23, 1, 'test_goTo_Left_JustFourElementInLine')
+data.setCell(23, 1, 'test_checkColumnsForWinnerWinnerIsInTheLastColumn')
 data.setCell(23, 2, 'org.perova.TicTacToe.AppTest')
 data.setCell(23, 3, 0);
 data.setCell(24, 0, 24)
-data.setCell(24, 1, 'test_checkRowsForWinner_WinnerIsInTheColumn')
+data.setCell(24, 1, 'test_isFieldSizeCorrect_IncorrectFieldSize')
 data.setCell(24, 2, 'org.perova.TicTacToe.AppTest')
 data.setCell(24, 3, 0);
 data.setCell(25, 0, 25)
-data.setCell(25, 1, 'test_checkRowsForWinner_WinnerIsInThe1stRow')
+data.setCell(25, 1, 'test_goTo_Left_JustFourElementInLine')
 data.setCell(25, 2, 'org.perova.TicTacToe.AppTest')
 data.setCell(25, 3, 0);
 data.setCell(26, 0, 26)
-data.setCell(26, 1, 'test_goTo_Right_TwoIsAWinnerInLine')
+data.setCell(26, 1, 'test_checkColumnsForWinner_WinnerIsInTheCrossing')
 data.setCell(26, 2, 'org.perova.TicTacToe.AppTest')
 data.setCell(26, 3, 0);
 data.setCell(27, 0, 27)
-data.setCell(27, 1, 'test_checkCrossesForWinner_WinnerIsInTheLeftCrossing')
+data.setCell(27, 1, 'test_goTo_Left_OneIsAWinnerInCrossing')
 data.setCell(27, 2, 'org.perova.TicTacToe.AppTest')
 data.setCell(27, 3, 0);
 data.setCell(28, 0, 28)
-data.setCell(28, 1, 'test_goTo_Left_TwoIsAWinnerInCrossing')
+data.setCell(28, 1, 'test_goTo_Right_OneIsAWinnerInLine')
 data.setCell(28, 2, 'org.perova.TicTacToe.AppTest')
 data.setCell(28, 3, 0);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 38 ms</span>
+              <span class="suite-total-time">Total running time: 40 ms</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -929,121 +896,119 @@ return data;
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">test_checkColumnsForWinner_WinnerIsInThe1stColumn</span>
-                <span class="method-start">25 ms</span>
+                <span class="method-start">26 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">test_checkColumnsForWinner_WinnerIsInThe3rdColumn</span>
-                <span class="method-start">27 ms</span>
+                <span class="method-start">28 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">test_checkColumnsForWinner_WinnerIsInTheCrossing</span>
-                <span class="method-start">29 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">test_checkColumnsForWinner_WinnerIsInTheRow</span>
                 <span class="method-start">30 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">test_checkCrossesForWinnerWinnerIsInTheRightCrossing</span>
-                <span class="method-start">34 ms</span>
+                <span class="method-name">test_checkColumnsForWinner_WinnerIsInTheRow</span>
+                <span class="method-start">31 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">test_checkCrossesForWinner_NoWinners</span>
-                <span class="method-start">37 ms</span>
+                <span class="method-start">33 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">test_checkCrossesForWinner_WinnerIsInTheColumn</span>
-                <span class="method-start">38 ms</span>
+                <span class="method-start">35 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">test_checkCrossesForWinner_WinnerIsInTheLeftCrossing</span>
-                <span class="method-start">40 ms</span>
+                <span class="method-start">36 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test_checkCrossesForWinner_WinnerIsInTheRightCrossing</span>
+                <span class="method-start">41 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">test_checkCrossesForWinner_WinnerIsInTheRow</span>
-                <span class="method-start">43 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">test_checkRowsForWinner_NoWinners</span>
                 <span class="method-start">44 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">test_checkRowsForWinner_WinnerIsInThe1stRow</span>
-                <span class="method-start">46 ms</span>
+                <span class="method-name">test_checkRowsForWinner_NoWinners</span>
+                <span class="method-start">45 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">test_checkRowsForWinner_WinnerIsInThe3rdRow</span>
+                <span class="method-name">test_checkRowsForWinner_WinnerIsInThe1stRow</span>
                 <span class="method-start">47 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">test_checkRowsForWinner_WinnerIsInTheColumn</span>
-                <span class="method-start">48 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">test_checkRowsForWinner_WinnerIsInTheCrossing</span>
+                <span class="method-name">test_checkRowsForWinner_WinnerIsInThe3rdRow</span>
                 <span class="method-start">49 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">test_checkRowsForWinner_WinnerIsInTheLastRow</span>
+                <span class="method-name">test_checkRowsForWinner_WinnerIsInTheColumn</span>
                 <span class="method-start">50 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <span class="method-name">test_checkRowsForWinner_WinnerIsInTheCrossing</span>
+                <span class="method-start">52 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_checkRowsForWinner_WinnerIsInTheLastRow</span>
+                <span class="method-start">54 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
                 <span class="method-name">test_goTo_Left_CurrentCellIsEmpty_MakeStepOutOfBoundary</span>
-                <span class="method-start">51 ms</span>
+                <span class="method-start">56 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">test_goTo_Left_JustFourElementInLine</span>
-                <span class="method-start">53 ms</span>
+                <span class="method-start">58 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">test_goTo_Left_JustOneElementInLine</span>
-                <span class="method-start">54 ms</span>
+                <span class="method-start">59 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">test_goTo_Left_OneIsAWinnerInCrossing</span>
-                <span class="method-start">55 ms</span>
+                <span class="method-start">61 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">test_goTo_Left_TwoIsAWinnerInCrossing</span>
-                <span class="method-start">57 ms</span>
+                <span class="method-start">63 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">test_goTo_Right_CurrentCellIsEmpty_MakeStepOutOfBoundary</span>
-                <span class="method-start">59 ms</span>
+                <span class="method-start">66 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">test_goTo_Right_JustFourElementInLine</span>
-                <span class="method-start">61 ms</span>
+                <span class="method-start">67 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">test_goTo_Right_JustOneElementInLine</span>
-                <span class="method-start">62 ms</span>
+                <span class="method-start">68 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">test_goTo_Right_OneIsAWinnerInLine</span>
-                <span class="method-start">65 ms</span>
+                <span class="method-start">70 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">test_goTo_Right_TwoIsAWinnerInLine</span>
-                <span class="method-start">68 ms</span>
+                <span class="method-start">72 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">test_isFieldSizeCorrect_IncorrectFieldSize</span>
-                <span class="method-start">70 ms</span>
+                <span class="method-start">75 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -36,10 +36,10 @@ public class App {
 			int stepCounter = 1;
 			while (stepCounter != 5) {
 				if (((currentRow + 1) < field.length)
-						&& (currentColumn + step*stepCounter >= 0)
-						&& ((currentColumn + step*stepCounter) < field[currentRow].length)
+						&& (currentColumn + step * stepCounter >= 0)
+						&& ((currentColumn + step * stepCounter) < field[currentRow].length)
 						&& (currentElement == field[currentRow + 1][currentColumn
-								+ step*stepCounter])) {
+								+ step * stepCounter])) {
 					numberOfElements++;
 
 				} else {
@@ -50,7 +50,7 @@ public class App {
 
 			if (numberOfElements == 5) {
 				return currentElement;
-			} 
+			}
 
 		}
 		return 0;
@@ -79,9 +79,10 @@ public class App {
 	}
 
 	protected int checkRowsForWinner(int[][] field) {
-		int numberOfElements = 0;
-		int currentElement = 0;
+
 		for (int row = 0; row < field.length; row++) {
+			int numberOfElements = 0;
+			int currentElement = 0;
 			for (int column = 0; column < field[row].length; column++) {
 
 				if (currentElement != 0 && currentElement == field[row][column]) {
@@ -102,18 +103,25 @@ public class App {
 
 				}
 
+				/*
+				 * Verifies the case, when we have 5 elements in a row but not
+				 * one by one. Example: {0,0,1,1,1,0,1,0,1}
+				 */
+				if (currentElement != field[row][column]) {
+					numberOfElements = 0;
+					currentElement = 0;
+				}
+
 			}
-			currentElement = 0;
-			numberOfElements = 0;
 		}
 		return 0;
 	}
 
 	protected int checkColumnsForWinner(int[][] field) {
-		int numberOfElements = 0;
-		int currentElement = 0;
 
 		for (int column = 0; column < field[0].length; column++) {
+			int currentElement = 0;
+			int numberOfElements = 0;
 			for (int row = 0; row < field.length; row++) {
 				if (currentElement != 0 && currentElement == field[row][column]) {
 
@@ -133,9 +141,19 @@ public class App {
 
 				}
 
+				/*
+				 * Verifies the case, when we have 5 elements in a column but
+				 * not one by one. Example: {0,0,1,1,1,0,1,0,1}
+				 */
+				if (currentElement != field[row][column]) {
+
+					numberOfElements = 0;
+					currentElement = 0;
+
+				}
+
 			}
-			currentElement = 0;
-			numberOfElements = 0;
+
 		}
 		return 0;
 	}
@@ -175,18 +193,16 @@ public class App {
 
 	public static void main(String[] args) {
 		App myGame = new App();
-		 int[][] field = new int[][] {
-		 { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
-		 { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
-		 { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
-		 { 0, 0, 2, 0, 0, 0, 0, 0, 0, 0 },
-		 { 0, 0, 1, 2, 2, 0, 0, 0, 0, 0 },
-		 { 0, 0, 1, 1, 2, 0, 0, 0, 0, 0 },
-		 { 0, 0, 0, 0, 0, 2, 2, 0, 0, 0 },
-		 { 0, 0, 1, 1, 1, 1, 2, 0, 0, 0 },
-		 { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
-		 { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 }
-		 };
+		int[][] field = new int[][] { { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
+				{ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
+				{ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
+				{ 0, 0, 2, 0, 0, 0, 0, 0, 0, 0 },
+				{ 0, 0, 1, 2, 2, 0, 0, 0, 0, 0 },
+				{ 0, 0, 1, 1, 0, 0, 0, 0, 0, 0 },
+				{ 0, 0, 0, 0, 0, 2, 2, 0, 0, 0 },
+				{ 0, 0, 1, 1, 1, 1, 2, 1, 0, 0 },
+				{ 0, 0, 1, 0, 0, 0, 0, 0, 0, 0 },
+				{ 0, 0, 1, 0, 0, 0, 0, 0, 0, 0 } };
 		myGame.TicTacToe(field);
 	}
 }

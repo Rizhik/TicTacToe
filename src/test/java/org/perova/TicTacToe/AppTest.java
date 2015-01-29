@@ -284,7 +284,7 @@ public class AppTest {
 				{ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 				{ 0, 0, 1, 2, 2, 2, 1, 0, 0, 0 },
 				{ 0, 0, 1, 1, 2, 1, 0, 0, 0, 0 },
-				{ 0, 0, 1, 1, 1, 0, 0, 0, 0, 0 },
+				{ 0, 0, 1, 1, 1, 0, 0, 0, 1, 1 },
 				{ 0, 0, 0, 0, 0, 1, 2, 0, 0, 0 },
 				{ 0, 0, 1, 1, 1, 0, 1, 0, 0, 0 },
 				{ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
@@ -383,7 +383,7 @@ public class AppTest {
 	public void test_checkColumnsForWinner_NoWinners() {
 		App myGame = new App();
 		int[][] field = new int[][] { { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
-				{ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
+				{ 0, 0, 1, 0, 0, 0, 0, 0, 0, 0 },
 				{ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 				{ 0, 0, 1, 2, 2, 2, 1, 0, 0, 0 },
 				{ 0, 0, 1, 1, 2, 1, 0, 0, 0, 0 },
@@ -451,7 +451,7 @@ public class AppTest {
 	}
 
 	@Test
-	public void test_checkCrossesForWinnerWinnerIsInTheRightCrossing() {
+	public void test_checkCrossesForWinner_WinnerIsInTheRightCrossing() {
 		App myGame = new App();
 		int[][] field = new int[][] { { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 				{ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
@@ -478,7 +478,7 @@ public class AppTest {
 				{ 0, 0, 1, 1, 0, 0, 0, 0, 0, 0 },
 				{ 0, 0, 0, 1, 0, 1, 2, 0, 0, 0 },
 				{ 0, 0, 1, 1, 1, 0, 1, 0, 0, 0 },
-				{ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
+				{ 0, 0, 0, 0, 0, 0, 0, 1, 0, 0 },
 				{ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 } };
 		int actualResult = myGame.checkCrossesForWiner(field);
 		AssertJUnit.assertEquals(0, actualResult);
