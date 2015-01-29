@@ -498,7 +498,7 @@ public class AppTest {
 				{ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 				{ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 } };
 		int actualResult = myGame.checkCrossesForWiner(field);
-		AssertJUnit.assertEquals(0, actualResult);
+		AssertJUnit.assertEquals(1, actualResult);
 	}
 
 	@Test
