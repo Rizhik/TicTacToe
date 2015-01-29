@@ -1,359 +1,164 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="6" total="29" passed="23">
+<testng-results skipped="0" failed="1" total="29" passed="28">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="97" started-at="2015-01-28T23:53:04Z" finished-at="2015-01-28T23:53:04Z">
+  <suite name="Default suite" duration-ms="102" started-at="2015-01-29T00:24:56Z" finished-at="2015-01-29T00:24:56Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="97" started-at="2015-01-28T23:53:04Z" finished-at="2015-01-28T23:53:04Z">
+    <test name="Default test" duration-ms="102" started-at="2015-01-29T00:24:56Z" finished-at="2015-01-29T00:24:56Z">
       <class name="org.perova.TicTacToe.AppTest">
-        <test-method status="PASS" signature="test_IsFieldSizeCorrect_CorrectFieldSize()[pri:0, instance:org.perova.TicTacToe.AppTest@d70c109]" name="test_IsFieldSizeCorrect_CorrectFieldSize" duration-ms="21" started-at="2015-01-28T15:53:04Z" finished-at="2015-01-28T15:53:04Z">
+        <test-method status="PASS" signature="test_IsFieldSizeCorrect_CorrectFieldSize()[pri:0, instance:org.perova.TicTacToe.AppTest@d70c109]" name="test_IsFieldSizeCorrect_CorrectFieldSize" duration-ms="25" started-at="2015-01-28T16:24:56Z" finished-at="2015-01-28T16:24:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_IsFieldSizeCorrect_CorrectFieldSize -->
-        <test-method status="PASS" signature="test_checkColumnsForWinnerWinnerIsInTheLastColumn()[pri:0, instance:org.perova.TicTacToe.AppTest@d70c109]" name="test_checkColumnsForWinnerWinnerIsInTheLastColumn" duration-ms="0" started-at="2015-01-28T15:53:04Z" finished-at="2015-01-28T15:53:04Z">
+        <test-method status="PASS" signature="test_checkColumnsForWinnerWinnerIsInTheLastColumn()[pri:0, instance:org.perova.TicTacToe.AppTest@d70c109]" name="test_checkColumnsForWinnerWinnerIsInTheLastColumn" duration-ms="1" started-at="2015-01-28T16:24:56Z" finished-at="2015-01-28T16:24:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_checkColumnsForWinnerWinnerIsInTheLastColumn -->
-        <test-method status="PASS" signature="test_checkColumnsForWinner_NoWinners()[pri:0, instance:org.perova.TicTacToe.AppTest@d70c109]" name="test_checkColumnsForWinner_NoWinners" duration-ms="1" started-at="2015-01-28T15:53:04Z" finished-at="2015-01-28T15:53:04Z">
+        <test-method status="PASS" signature="test_checkColumnsForWinner_NoWinners()[pri:0, instance:org.perova.TicTacToe.AppTest@d70c109]" name="test_checkColumnsForWinner_NoWinners" duration-ms="1" started-at="2015-01-28T16:24:56Z" finished-at="2015-01-28T16:24:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_checkColumnsForWinner_NoWinners -->
-        <test-method status="PASS" signature="test_checkColumnsForWinner_WinnerIsInThe1stColumn()[pri:0, instance:org.perova.TicTacToe.AppTest@d70c109]" name="test_checkColumnsForWinner_WinnerIsInThe1stColumn" duration-ms="1" started-at="2015-01-28T15:53:04Z" finished-at="2015-01-28T15:53:04Z">
+        <test-method status="PASS" signature="test_checkColumnsForWinner_WinnerIsInThe1stColumn()[pri:0, instance:org.perova.TicTacToe.AppTest@d70c109]" name="test_checkColumnsForWinner_WinnerIsInThe1stColumn" duration-ms="1" started-at="2015-01-28T16:24:56Z" finished-at="2015-01-28T16:24:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_checkColumnsForWinner_WinnerIsInThe1stColumn -->
-        <test-method status="PASS" signature="test_checkColumnsForWinner_WinnerIsInThe3rdColumn()[pri:0, instance:org.perova.TicTacToe.AppTest@d70c109]" name="test_checkColumnsForWinner_WinnerIsInThe3rdColumn" duration-ms="1" started-at="2015-01-28T15:53:04Z" finished-at="2015-01-28T15:53:04Z">
+        <test-method status="PASS" signature="test_checkColumnsForWinner_WinnerIsInThe3rdColumn()[pri:0, instance:org.perova.TicTacToe.AppTest@d70c109]" name="test_checkColumnsForWinner_WinnerIsInThe3rdColumn" duration-ms="1" started-at="2015-01-28T16:24:56Z" finished-at="2015-01-28T16:24:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_checkColumnsForWinner_WinnerIsInThe3rdColumn -->
-        <test-method status="PASS" signature="test_checkColumnsForWinner_WinnerIsInTheCrossing()[pri:0, instance:org.perova.TicTacToe.AppTest@d70c109]" name="test_checkColumnsForWinner_WinnerIsInTheCrossing" duration-ms="0" started-at="2015-01-28T15:53:04Z" finished-at="2015-01-28T15:53:04Z">
+        <test-method status="PASS" signature="test_checkColumnsForWinner_WinnerIsInTheCrossing()[pri:0, instance:org.perova.TicTacToe.AppTest@d70c109]" name="test_checkColumnsForWinner_WinnerIsInTheCrossing" duration-ms="1" started-at="2015-01-28T16:24:56Z" finished-at="2015-01-28T16:24:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_checkColumnsForWinner_WinnerIsInTheCrossing -->
-        <test-method status="PASS" signature="test_checkColumnsForWinner_WinnerIsInTheRow()[pri:0, instance:org.perova.TicTacToe.AppTest@d70c109]" name="test_checkColumnsForWinner_WinnerIsInTheRow" duration-ms="1" started-at="2015-01-28T15:53:04Z" finished-at="2015-01-28T15:53:04Z">
+        <test-method status="PASS" signature="test_checkColumnsForWinner_WinnerIsInTheRow()[pri:0, instance:org.perova.TicTacToe.AppTest@d70c109]" name="test_checkColumnsForWinner_WinnerIsInTheRow" duration-ms="1" started-at="2015-01-28T16:24:56Z" finished-at="2015-01-28T16:24:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_checkColumnsForWinner_WinnerIsInTheRow -->
-        <test-method status="PASS" signature="test_checkCrossesForWinner_NoWinners()[pri:0, instance:org.perova.TicTacToe.AppTest@d70c109]" name="test_checkCrossesForWinner_NoWinners" duration-ms="1" started-at="2015-01-28T15:53:04Z" finished-at="2015-01-28T15:53:04Z">
+        <test-method status="PASS" signature="test_checkCrossesForWinner_NoWinners()[pri:0, instance:org.perova.TicTacToe.AppTest@d70c109]" name="test_checkCrossesForWinner_NoWinners" duration-ms="1" started-at="2015-01-28T16:24:56Z" finished-at="2015-01-28T16:24:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_checkCrossesForWinner_NoWinners -->
-        <test-method status="PASS" signature="test_checkCrossesForWinner_WinnerIsInTheColumn()[pri:0, instance:org.perova.TicTacToe.AppTest@d70c109]" name="test_checkCrossesForWinner_WinnerIsInTheColumn" duration-ms="0" started-at="2015-01-28T15:53:04Z" finished-at="2015-01-28T15:53:04Z">
+        <test-method status="FAIL" signature="test_checkCrossesForWinner_WinnerIsInTheColumn()[pri:0, instance:org.perova.TicTacToe.AppTest@d70c109]" name="test_checkCrossesForWinner_WinnerIsInTheColumn" duration-ms="1" started-at="2015-01-28T16:24:56Z" finished-at="2015-01-28T16:24:56Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected:<0> but was:<1>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected:<0> but was:<1>
+	at org.testng.AssertJUnit.fail(AssertJUnit.java:59)
+	at org.testng.AssertJUnit.failNotEquals(AssertJUnit.java:364)
+	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:80)
+	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:245)
+	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:252)
+	at org.perova.TicTacToe.AppTest.test_checkCrossesForWinner_WinnerIsInTheColumn(AppTest.java:501)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_checkCrossesForWinner_WinnerIsInTheColumn -->
-        <test-method status="FAIL" signature="test_checkCrossesForWinner_WinnerIsInTheLeftCrossing()[pri:0, instance:org.perova.TicTacToe.AppTest@d70c109]" name="test_checkCrossesForWinner_WinnerIsInTheLeftCrossing" duration-ms="2" started-at="2015-01-28T15:53:04Z" finished-at="2015-01-28T15:53:04Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected:<1> but was:<0>]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected:<1> but was:<0>
-	at org.testng.AssertJUnit.fail(AssertJUnit.java:59)
-	at org.testng.AssertJUnit.failNotEquals(AssertJUnit.java:364)
-	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:80)
-	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:245)
-	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:252)
-	at org.perova.TicTacToe.AppTest.test_checkCrossesForWinner_WinnerIsInTheLeftCrossing(AppTest.java:450)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:483)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method status="PASS" signature="test_checkCrossesForWinner_WinnerIsInTheLeftCrossing()[pri:0, instance:org.perova.TicTacToe.AppTest@d70c109]" name="test_checkCrossesForWinner_WinnerIsInTheLeftCrossing" duration-ms="1" started-at="2015-01-28T16:24:56Z" finished-at="2015-01-28T16:24:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_checkCrossesForWinner_WinnerIsInTheLeftCrossing -->
-        <test-method status="FAIL" signature="test_checkCrossesForWinner_WinnerIsInTheRightCrossing()[pri:0, instance:org.perova.TicTacToe.AppTest@d70c109]" name="test_checkCrossesForWinner_WinnerIsInTheRightCrossing" duration-ms="1" started-at="2015-01-28T15:53:04Z" finished-at="2015-01-28T15:53:04Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected:<2> but was:<0>]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected:<2> but was:<0>
-	at org.testng.AssertJUnit.fail(AssertJUnit.java:59)
-	at org.testng.AssertJUnit.failNotEquals(AssertJUnit.java:364)
-	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:80)
-	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:245)
-	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:252)
-	at org.perova.TicTacToe.AppTest.test_checkCrossesForWinner_WinnerIsInTheRightCrossing(AppTest.java:467)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:483)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method status="PASS" signature="test_checkCrossesForWinner_WinnerIsInTheRightCrossing()[pri:0, instance:org.perova.TicTacToe.AppTest@d70c109]" name="test_checkCrossesForWinner_WinnerIsInTheRightCrossing" duration-ms="0" started-at="2015-01-28T16:24:56Z" finished-at="2015-01-28T16:24:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_checkCrossesForWinner_WinnerIsInTheRightCrossing -->
-        <test-method status="PASS" signature="test_checkCrossesForWinner_WinnerIsInTheRow()[pri:0, instance:org.perova.TicTacToe.AppTest@d70c109]" name="test_checkCrossesForWinner_WinnerIsInTheRow" duration-ms="1" started-at="2015-01-28T15:53:04Z" finished-at="2015-01-28T15:53:04Z">
+        <test-method status="PASS" signature="test_checkCrossesForWinner_WinnerIsInTheRow()[pri:0, instance:org.perova.TicTacToe.AppTest@d70c109]" name="test_checkCrossesForWinner_WinnerIsInTheRow" duration-ms="1" started-at="2015-01-28T16:24:56Z" finished-at="2015-01-28T16:24:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_checkCrossesForWinner_WinnerIsInTheRow -->
-        <test-method status="PASS" signature="test_checkRowsForWinner_NoWinners()[pri:0, instance:org.perova.TicTacToe.AppTest@d70c109]" name="test_checkRowsForWinner_NoWinners" duration-ms="1" started-at="2015-01-28T15:53:04Z" finished-at="2015-01-28T15:53:04Z">
+        <test-method status="PASS" signature="test_checkRowsForWinner_NoWinners()[pri:0, instance:org.perova.TicTacToe.AppTest@d70c109]" name="test_checkRowsForWinner_NoWinners" duration-ms="0" started-at="2015-01-28T16:24:56Z" finished-at="2015-01-28T16:24:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_checkRowsForWinner_NoWinners -->
-        <test-method status="PASS" signature="test_checkRowsForWinner_WinnerIsInThe1stRow()[pri:0, instance:org.perova.TicTacToe.AppTest@d70c109]" name="test_checkRowsForWinner_WinnerIsInThe1stRow" duration-ms="1" started-at="2015-01-28T15:53:04Z" finished-at="2015-01-28T15:53:04Z">
+        <test-method status="PASS" signature="test_checkRowsForWinner_WinnerIsInThe1stRow()[pri:0, instance:org.perova.TicTacToe.AppTest@d70c109]" name="test_checkRowsForWinner_WinnerIsInThe1stRow" duration-ms="1" started-at="2015-01-28T16:24:56Z" finished-at="2015-01-28T16:24:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_checkRowsForWinner_WinnerIsInThe1stRow -->
-        <test-method status="PASS" signature="test_checkRowsForWinner_WinnerIsInThe3rdRow()[pri:0, instance:org.perova.TicTacToe.AppTest@d70c109]" name="test_checkRowsForWinner_WinnerIsInThe3rdRow" duration-ms="0" started-at="2015-01-28T15:53:04Z" finished-at="2015-01-28T15:53:04Z">
+        <test-method status="PASS" signature="test_checkRowsForWinner_WinnerIsInThe3rdRow()[pri:0, instance:org.perova.TicTacToe.AppTest@d70c109]" name="test_checkRowsForWinner_WinnerIsInThe3rdRow" duration-ms="1" started-at="2015-01-28T16:24:56Z" finished-at="2015-01-28T16:24:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_checkRowsForWinner_WinnerIsInThe3rdRow -->
-        <test-method status="PASS" signature="test_checkRowsForWinner_WinnerIsInTheColumn()[pri:0, instance:org.perova.TicTacToe.AppTest@d70c109]" name="test_checkRowsForWinner_WinnerIsInTheColumn" duration-ms="1" started-at="2015-01-28T15:53:04Z" finished-at="2015-01-28T15:53:04Z">
+        <test-method status="PASS" signature="test_checkRowsForWinner_WinnerIsInTheColumn()[pri:0, instance:org.perova.TicTacToe.AppTest@d70c109]" name="test_checkRowsForWinner_WinnerIsInTheColumn" duration-ms="0" started-at="2015-01-28T16:24:56Z" finished-at="2015-01-28T16:24:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_checkRowsForWinner_WinnerIsInTheColumn -->
-        <test-method status="PASS" signature="test_checkRowsForWinner_WinnerIsInTheCrossing()[pri:0, instance:org.perova.TicTacToe.AppTest@d70c109]" name="test_checkRowsForWinner_WinnerIsInTheCrossing" duration-ms="0" started-at="2015-01-28T15:53:04Z" finished-at="2015-01-28T15:53:04Z">
+        <test-method status="PASS" signature="test_checkRowsForWinner_WinnerIsInTheCrossing()[pri:0, instance:org.perova.TicTacToe.AppTest@d70c109]" name="test_checkRowsForWinner_WinnerIsInTheCrossing" duration-ms="1" started-at="2015-01-28T16:24:56Z" finished-at="2015-01-28T16:24:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_checkRowsForWinner_WinnerIsInTheCrossing -->
-        <test-method status="PASS" signature="test_checkRowsForWinner_WinnerIsInTheLastRow()[pri:0, instance:org.perova.TicTacToe.AppTest@d70c109]" name="test_checkRowsForWinner_WinnerIsInTheLastRow" duration-ms="1" started-at="2015-01-28T15:53:04Z" finished-at="2015-01-28T15:53:04Z">
+        <test-method status="PASS" signature="test_checkRowsForWinner_WinnerIsInTheLastRow()[pri:0, instance:org.perova.TicTacToe.AppTest@d70c109]" name="test_checkRowsForWinner_WinnerIsInTheLastRow" duration-ms="1" started-at="2015-01-28T16:24:56Z" finished-at="2015-01-28T16:24:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_checkRowsForWinner_WinnerIsInTheLastRow -->
-        <test-method status="PASS" signature="test_goTo_Left_CurrentCellIsEmpty_MakeStepOutOfBoundary()[pri:0, instance:org.perova.TicTacToe.AppTest@d70c109]" name="test_goTo_Left_CurrentCellIsEmpty_MakeStepOutOfBoundary" duration-ms="1" started-at="2015-01-28T15:53:04Z" finished-at="2015-01-28T15:53:04Z">
+        <test-method status="PASS" signature="test_goTo_Left_CurrentCellIsEmpty_MakeStepOutOfBoundary()[pri:0, instance:org.perova.TicTacToe.AppTest@d70c109]" name="test_goTo_Left_CurrentCellIsEmpty_MakeStepOutOfBoundary" duration-ms="1" started-at="2015-01-28T16:24:56Z" finished-at="2015-01-28T16:24:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_goTo_Left_CurrentCellIsEmpty_MakeStepOutOfBoundary -->
-        <test-method status="PASS" signature="test_goTo_Left_JustFourElementInLine()[pri:0, instance:org.perova.TicTacToe.AppTest@d70c109]" name="test_goTo_Left_JustFourElementInLine" duration-ms="0" started-at="2015-01-28T15:53:04Z" finished-at="2015-01-28T15:53:04Z">
+        <test-method status="PASS" signature="test_goTo_Left_JustFourElementInLine()[pri:0, instance:org.perova.TicTacToe.AppTest@d70c109]" name="test_goTo_Left_JustFourElementInLine" duration-ms="0" started-at="2015-01-28T16:24:56Z" finished-at="2015-01-28T16:24:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_goTo_Left_JustFourElementInLine -->
-        <test-method status="PASS" signature="test_goTo_Left_JustOneElementInLine()[pri:0, instance:org.perova.TicTacToe.AppTest@d70c109]" name="test_goTo_Left_JustOneElementInLine" duration-ms="1" started-at="2015-01-28T15:53:04Z" finished-at="2015-01-28T15:53:04Z">
+        <test-method status="PASS" signature="test_goTo_Left_JustOneElementInLine()[pri:0, instance:org.perova.TicTacToe.AppTest@d70c109]" name="test_goTo_Left_JustOneElementInLine" duration-ms="1" started-at="2015-01-28T16:24:56Z" finished-at="2015-01-28T16:24:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_goTo_Left_JustOneElementInLine -->
-        <test-method status="FAIL" signature="test_goTo_Left_OneIsAWinnerInCrossing()[pri:0, instance:org.perova.TicTacToe.AppTest@d70c109]" name="test_goTo_Left_OneIsAWinnerInCrossing" duration-ms="0" started-at="2015-01-28T15:53:04Z" finished-at="2015-01-28T15:53:04Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected:<1> but was:<0>]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected:<1> but was:<0>
-	at org.testng.AssertJUnit.fail(AssertJUnit.java:59)
-	at org.testng.AssertJUnit.failNotEquals(AssertJUnit.java:364)
-	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:80)
-	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:245)
-	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:252)
-	at org.perova.TicTacToe.AppTest.test_goTo_Left_OneIsAWinnerInCrossing(AppTest.java:204)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:483)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method status="PASS" signature="test_goTo_Left_OneIsAWinnerInCrossing()[pri:0, instance:org.perova.TicTacToe.AppTest@d70c109]" name="test_goTo_Left_OneIsAWinnerInCrossing" duration-ms="0" started-at="2015-01-28T16:24:56Z" finished-at="2015-01-28T16:24:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_goTo_Left_OneIsAWinnerInCrossing -->
-        <test-method status="FAIL" signature="test_goTo_Left_TwoIsAWinnerInCrossing()[pri:0, instance:org.perova.TicTacToe.AppTest@d70c109]" name="test_goTo_Left_TwoIsAWinnerInCrossing" duration-ms="1" started-at="2015-01-28T15:53:04Z" finished-at="2015-01-28T15:53:04Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected:<2> but was:<0>]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected:<2> but was:<0>
-	at org.testng.AssertJUnit.fail(AssertJUnit.java:59)
-	at org.testng.AssertJUnit.failNotEquals(AssertJUnit.java:364)
-	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:80)
-	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:245)
-	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:252)
-	at org.perova.TicTacToe.AppTest.test_goTo_Left_TwoIsAWinnerInCrossing(AppTest.java:224)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:483)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method status="PASS" signature="test_goTo_Left_TwoIsAWinnerInCrossing()[pri:0, instance:org.perova.TicTacToe.AppTest@d70c109]" name="test_goTo_Left_TwoIsAWinnerInCrossing" duration-ms="0" started-at="2015-01-28T16:24:56Z" finished-at="2015-01-28T16:24:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_goTo_Left_TwoIsAWinnerInCrossing -->
-        <test-method status="PASS" signature="test_goTo_Right_CurrentCellIsEmpty_MakeStepOutOfBoundary()[pri:0, instance:org.perova.TicTacToe.AppTest@d70c109]" name="test_goTo_Right_CurrentCellIsEmpty_MakeStepOutOfBoundary" duration-ms="0" started-at="2015-01-28T15:53:04Z" finished-at="2015-01-28T15:53:04Z">
+        <test-method status="PASS" signature="test_goTo_Right_CurrentCellIsEmpty_MakeStepOutOfBoundary()[pri:0, instance:org.perova.TicTacToe.AppTest@d70c109]" name="test_goTo_Right_CurrentCellIsEmpty_MakeStepOutOfBoundary" duration-ms="1" started-at="2015-01-28T16:24:56Z" finished-at="2015-01-28T16:24:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_goTo_Right_CurrentCellIsEmpty_MakeStepOutOfBoundary -->
-        <test-method status="PASS" signature="test_goTo_Right_JustFourElementInLine()[pri:0, instance:org.perova.TicTacToe.AppTest@d70c109]" name="test_goTo_Right_JustFourElementInLine" duration-ms="1" started-at="2015-01-28T15:53:04Z" finished-at="2015-01-28T15:53:04Z">
+        <test-method status="PASS" signature="test_goTo_Right_JustFourElementInLine()[pri:0, instance:org.perova.TicTacToe.AppTest@d70c109]" name="test_goTo_Right_JustFourElementInLine" duration-ms="1" started-at="2015-01-28T16:24:56Z" finished-at="2015-01-28T16:24:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_goTo_Right_JustFourElementInLine -->
-        <test-method status="PASS" signature="test_goTo_Right_JustOneElementInLine()[pri:0, instance:org.perova.TicTacToe.AppTest@d70c109]" name="test_goTo_Right_JustOneElementInLine" duration-ms="1" started-at="2015-01-28T15:53:04Z" finished-at="2015-01-28T15:53:04Z">
+        <test-method status="PASS" signature="test_goTo_Right_JustOneElementInLine()[pri:0, instance:org.perova.TicTacToe.AppTest@d70c109]" name="test_goTo_Right_JustOneElementInLine" duration-ms="0" started-at="2015-01-28T16:24:56Z" finished-at="2015-01-28T16:24:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_goTo_Right_JustOneElementInLine -->
-        <test-method status="FAIL" signature="test_goTo_Right_OneIsAWinnerInLine()[pri:0, instance:org.perova.TicTacToe.AppTest@d70c109]" name="test_goTo_Right_OneIsAWinnerInLine" duration-ms="0" started-at="2015-01-28T15:53:04Z" finished-at="2015-01-28T15:53:04Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected:<1> but was:<0>]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected:<1> but was:<0>
-	at org.testng.AssertJUnit.fail(AssertJUnit.java:59)
-	at org.testng.AssertJUnit.failNotEquals(AssertJUnit.java:364)
-	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:80)
-	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:245)
-	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:252)
-	at org.perova.TicTacToe.AppTest.test_goTo_Right_OneIsAWinnerInLine(AppTest.java:103)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:483)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method status="PASS" signature="test_goTo_Right_OneIsAWinnerInLine()[pri:0, instance:org.perova.TicTacToe.AppTest@d70c109]" name="test_goTo_Right_OneIsAWinnerInLine" duration-ms="1" started-at="2015-01-28T16:24:56Z" finished-at="2015-01-28T16:24:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_goTo_Right_OneIsAWinnerInLine -->
-        <test-method status="FAIL" signature="test_goTo_Right_TwoIsAWinnerInLine()[pri:0, instance:org.perova.TicTacToe.AppTest@d70c109]" name="test_goTo_Right_TwoIsAWinnerInLine" duration-ms="1" started-at="2015-01-28T15:53:04Z" finished-at="2015-01-28T15:53:04Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected:<2> but was:<0>]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected:<2> but was:<0>
-	at org.testng.AssertJUnit.fail(AssertJUnit.java:59)
-	at org.testng.AssertJUnit.failNotEquals(AssertJUnit.java:364)
-	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:80)
-	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:245)
-	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:252)
-	at org.perova.TicTacToe.AppTest.test_goTo_Right_TwoIsAWinnerInLine(AppTest.java:123)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:483)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method status="PASS" signature="test_goTo_Right_TwoIsAWinnerInLine()[pri:0, instance:org.perova.TicTacToe.AppTest@d70c109]" name="test_goTo_Right_TwoIsAWinnerInLine" duration-ms="0" started-at="2015-01-28T16:24:56Z" finished-at="2015-01-28T16:24:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_goTo_Right_TwoIsAWinnerInLine -->
-        <test-method status="PASS" signature="test_isFieldSizeCorrect_IncorrectFieldSize()[pri:0, instance:org.perova.TicTacToe.AppTest@d70c109]" name="test_isFieldSizeCorrect_IncorrectFieldSize" duration-ms="0" started-at="2015-01-28T15:53:04Z" finished-at="2015-01-28T15:53:04Z">
+        <test-method status="PASS" signature="test_isFieldSizeCorrect_IncorrectFieldSize()[pri:0, instance:org.perova.TicTacToe.AppTest@d70c109]" name="test_isFieldSizeCorrect_IncorrectFieldSize" duration-ms="1" started-at="2015-01-28T16:24:56Z" finished-at="2015-01-28T16:24:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_isFieldSizeCorrect_IncorrectFieldSize -->

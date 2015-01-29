@@ -35,10 +35,10 @@ public class App {
 
 			int stepCounter = 1;
 			while (stepCounter != 5) {
-				if (((currentRow + 1) < field.length)
+				if (((currentRow + 1*stepCounter) < field.length)
 						&& (currentColumn + step * stepCounter >= 0)
 						&& ((currentColumn + step * stepCounter) < field[currentRow].length)
-						&& (currentElement == field[currentRow + 1][currentColumn
+						&& (currentElement == field[currentRow + 1*stepCounter][currentColumn
 								+ step * stepCounter])) {
 					numberOfElements++;
 
@@ -193,16 +193,24 @@ public class App {
 
 	public static void main(String[] args) {
 		App myGame = new App();
-		int[][] field = new int[][] { { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
-				{ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
-				{ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
-				{ 0, 0, 2, 0, 0, 0, 0, 0, 0, 0 },
-				{ 0, 0, 1, 2, 2, 0, 0, 0, 0, 0 },
-				{ 0, 0, 1, 1, 0, 0, 0, 0, 0, 0 },
-				{ 0, 0, 0, 0, 0, 2, 2, 0, 0, 0 },
-				{ 0, 0, 1, 1, 1, 1, 2, 1, 0, 0 },
-				{ 0, 0, 1, 0, 0, 0, 0, 0, 0, 0 },
-				{ 0, 0, 1, 0, 0, 0, 0, 0, 0, 0 } };
+//		int[][] field = new int[][] { { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
+//				{ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
+//				{ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
+//				{ 0, 0, 2, 0, 0, 0, 0, 0, 0, 0 },
+//				{ 0, 0, 1, 2, 2, 0, 0, 0, 0, 0 },
+//				{ 0, 0, 1, 1, 2, 0, 0, 0, 0, 0 },
+//				{ 0, 0, 0, 0, 0, 2, 2, 0, 0, 0 },
+//				{ 0, 0, 1, 1, 1, 1, 2, 1, 0, 0 },
+//				{ 0, 0, 1, 0, 0, 0, 0, 0, 0, 0 },
+//				{ 0, 0, 1, 0, 0, 0, 0, 0, 0, 0 } };
+		
+		int[][] field = new int[][] { 
+				{ 2, 0, 0, 0, 0, 1},
+				{ 0, 2, 0, 0, 1, 0},
+				{ 0, 0, 2, 0, 0, 0},
+				{ 0, 0, 1, 2, 0, 0},
+				{ 0, 1, 0, 0, 2, 0},
+				{ 1, 0, 0, 0, 0, 2}};
 		myGame.TicTacToe(field);
 	}
 }
