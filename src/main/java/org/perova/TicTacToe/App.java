@@ -1,21 +1,40 @@
 package org.perova.TicTacToe;
 
+import java.util.Scanner;
+
 public class App {
+	int[][] field;
+	int coordinateByX = 0;
+	int coordinateByY = 0;
+	int currentPlayer = 1;
+	Scanner sc = new Scanner(System.in);
 
-	protected boolean isFieldSizeCorrect(int field[][]) {
-		for (int raw = 0; raw < field.length; raw++) {
-
-			if (field.length != field[raw].length) {
-				System.out.println("!!! We have a wrong field size !!!");
-				return false;
-			}
-
-		}
-
-		return true;
+	protected void setField(int[][] field) {
+		this.field = field;
 	}
 
-	protected void printField(int field[][]) {
+	protected void setCurrentPlayer(int currentPlayer) {
+		this.currentPlayer = currentPlayer;
+	}
+
+	protected void initializeField() {
+		System.out.println("Input field SIZE by X: ");
+		int sizeByX = sc.nextInt();
+
+		System.out.println("Input field SIZE by Y: ");
+		int sizeByY = sc.nextInt();
+
+		int[][] newField = new int[sizeByX][sizeByY];
+		for (int i = 0; i < sizeByX; i++) {
+			for (int j = 0; j < sizeByY; j++) {
+				newField[i][j] = 0;
+			}
+		}
+
+		setField(newField);
+	}
+
+	protected void printField() {
 		for (int raw = 0; raw < field.length; raw++) {
 			for (int column = 0; column < field[raw].length; column++) {
 				System.out.print(field[raw][column] + " ");
@@ -24,8 +43,38 @@ public class App {
 		}
 	}
 
-	protected int goTo(int[][] field, int currentRow, int currentColumn,
-			int step) {
+	protected int[] requestCoordinate(int playerId) {
+		int[] coordinates = new int[2];
+		System.out.print("Please, input coordinate X for " + playerId + ": ");
+
+		coordinates[0] = sc.nextInt();
+
+		System.out.print("Please, input coordinate Y for " + playerId + ": ");
+		coordinates[1] = sc.nextInt();
+
+		return coordinates;
+	}
+
+	protected int[][] makeMove(int playerId) {
+
+		int[] coordinates = requestCoordinate(playerId);
+
+		int x = coordinates[0];
+		int y = coordinates[1];
+
+		if (field[x][y] != 0) {
+			System.out.println("You made a wrong step. This cell is marked already");
+		} else {
+			if (playerId == 1) {
+				field[x][y] = 1;
+			} else {
+				field[x][y] = 2;
+			}
+		}
+		return field;
+	}
+
+	protected int goTo(int currentRow, int currentColumn, int step) {
 		int numberOfElements = 0;
 		int currentElement = 0;
 
@@ -35,10 +84,10 @@ public class App {
 
 			int stepCounter = 1;
 			while (stepCounter != 5) {
-				if (((currentRow + 1*stepCounter) < field.length)
+				if (((currentRow + stepCounter) < field.length)
 						&& (currentColumn + step * stepCounter >= 0)
 						&& ((currentColumn + step * stepCounter) < field[currentRow].length)
-						&& (currentElement == field[currentRow + 1*stepCounter][currentColumn
+						&& (currentElement == field[currentRow + stepCounter][currentColumn
 								+ step * stepCounter])) {
 					numberOfElements++;
 
@@ -56,19 +105,19 @@ public class App {
 		return 0;
 	}
 
-	protected int checkCrossesForWiner(int[][] field) {
+	protected int checkCrossesForWiner() {
 
 		for (int row = 0; row < field.length; row++) {
 			for (int column = 0; column < field[row].length; column++) {
 
 				// Go right
-				int rightResult = goTo(field, row, column, 1);
+				int rightResult = goTo(row, column, 1);
 
 				if (rightResult != 0) {
 					return rightResult;
 				}
 				// Go left
-				int leftResult = goTo(field, row, column, -1);
+				int leftResult = goTo(row, column, -1);
 
 				if (leftResult != 0) {
 					return leftResult;
@@ -78,7 +127,7 @@ public class App {
 		return 0;
 	}
 
-	protected int checkRowsForWinner(int[][] field) {
+	protected int checkRowsForWinner() {
 
 		for (int row = 0; row < field.length; row++) {
 			int numberOfElements = 0;
@@ -117,7 +166,7 @@ public class App {
 		return 0;
 	}
 
-	protected int checkColumnsForWinner(int[][] field) {
+	protected int checkColumnsForWinner() {
 
 		for (int column = 0; column < field[0].length; column++) {
 			int currentElement = 0;
@@ -158,59 +207,55 @@ public class App {
 		return 0;
 	}
 
-	public void TicTacToe(int[][] field) {
-		App game = new App();
-		if (game.isFieldSizeCorrect(field) == true) {
-			// Print of the field
-			game.printField(field);
+	protected int findWinner() {
 
-			// Check crosses for winer
-			int crossesWinner = game.checkCrossesForWiner(field);
-			if (crossesWinner != 0) {
-				System.out.println("CROSSES_Winner is " + crossesWinner);
-			}
-
-			// Check rows for winner
-			int rowWinner = game.checkRowsForWinner(field);
-			if (rowWinner != 0) {
-				System.out.println("ROW_Winner is " + rowWinner);
-			}
-
-			// Check columns for winner
-			int columnWinner = game.checkColumnsForWinner(field);
-			if (columnWinner != 0) {
-
-				System.out.println("COLUMN_Winner is " + columnWinner);
-
-			}
-
-			// There is no winner message
-			if (crossesWinner == 0 && rowWinner == 0 && columnWinner == 0) {
-				System.out.println("There is no winner!!!");
-			}
+		// Check crosses for winer
+		int crossesWinner = checkCrossesForWiner();
+		if (crossesWinner != 0) {
+			System.out.println("CROSSES_Winner is " + crossesWinner);
+			return crossesWinner;
 		}
+
+		// Check rows for winner
+		int rowWinner = checkRowsForWinner();
+		if (rowWinner != 0) {
+			System.out.println("ROW_Winner is " + rowWinner);
+			return rowWinner;
+		}
+
+		// Check columns for winner
+		int columnWinner = checkColumnsForWinner();
+		if (columnWinner != 0) {
+			System.out.println("COLUMN_Winner is " + columnWinner);
+			return columnWinner;
+		}
+
+		// There is no winner message
+		return 0;
+
+	}
+
+	public void startGame() {
+
+		initializeField();
+
+		while (findWinner() == 0) {
+			printField();
+
+			// Change player on each step
+			makeMove(currentPlayer);
+			if (currentPlayer == 1) {
+				currentPlayer = 2;
+			} else {
+				currentPlayer = 1;
+			}
+
+		}
+		sc.close();
 	}
 
 	public static void main(String[] args) {
 		App myGame = new App();
-//		int[][] field = new int[][] { { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
-//				{ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
-//				{ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
-//				{ 0, 0, 2, 0, 0, 0, 0, 0, 0, 0 },
-//				{ 0, 0, 1, 2, 2, 0, 0, 0, 0, 0 },
-//				{ 0, 0, 1, 1, 2, 0, 0, 0, 0, 0 },
-//				{ 0, 0, 0, 0, 0, 2, 2, 0, 0, 0 },
-//				{ 0, 0, 1, 1, 1, 1, 2, 1, 0, 0 },
-//				{ 0, 0, 1, 0, 0, 0, 0, 0, 0, 0 },
-//				{ 0, 0, 1, 0, 0, 0, 0, 0, 0, 0 } };
-		
-		int[][] field = new int[][] { 
-				{ 2, 0, 0, 0, 0, 1},
-				{ 0, 2, 0, 0, 1, 0},
-				{ 0, 0, 2, 0, 0, 0},
-				{ 0, 0, 1, 2, 0, 0},
-				{ 0, 1, 0, 0, 2, 0},
-				{ 1, 0, 0, 0, 0, 2}};
-		myGame.TicTacToe(field);
+		myGame.startGame();
 	}
 }
