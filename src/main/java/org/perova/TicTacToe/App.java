@@ -17,7 +17,7 @@ public class App {
 		this.currentPlayer = currentPlayer;
 	}
 
-	protected void initializeField() {
+	protected App() {
 		System.out.println("Input field SIZE by X: ");
 		int sizeByX = sc.nextInt();
 
@@ -63,7 +63,8 @@ public class App {
 		int y = coordinates[1];
 
 		if (field[x][y] != 0) {
-			System.out.println("You made a wrong step. This cell is marked already");
+			System.out
+					.println("You made a wrong step. This cell is marked already");
 		} else {
 			if (playerId == 1) {
 				field[x][y] = 1;
@@ -237,9 +238,7 @@ public class App {
 
 	public void startGame() {
 
-		initializeField();
-
-		while (findWinner() == 0) {
+		do {
 			printField();
 
 			// Change player on each step
@@ -250,7 +249,7 @@ public class App {
 				currentPlayer = 1;
 			}
 
-		}
+		} while (findWinner() == 0);
 		sc.close();
 	}
 
