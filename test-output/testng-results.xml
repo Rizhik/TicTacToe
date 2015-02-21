@@ -1,145 +1,109 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="33" passed="33">
+<testng-results skipped="0" failed="0" total="24" passed="24">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="146" started-at="2015-02-13T03:23:44Z" finished-at="2015-02-13T03:23:44Z">
+  <suite name="Default suite" duration-ms="91" started-at="2015-02-21T04:11:30Z" finished-at="2015-02-21T04:11:30Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="146" started-at="2015-02-13T03:23:44Z" finished-at="2015-02-13T03:23:44Z">
-      <class name="org.perova.TicTacToe.AppTest">
-        <test-method status="PASS" signature="test_checkColumnsForWinnerWinnerIsInTheLastColumn()[pri:0, instance:org.perova.TicTacToe.AppTest@d70c109]" name="test_checkColumnsForWinnerWinnerIsInTheLastColumn" duration-ms="54" started-at="2015-02-12T19:23:44Z" finished-at="2015-02-12T19:23:44Z">
+    <test name="Default test" duration-ms="91" started-at="2015-02-21T04:11:30Z" finished-at="2015-02-21T04:11:30Z">
+      <class name="org.perova.TicTacToe.CompAlgorTest">
+        <test-method status="PASS" signature="test_combineMatrix_2()[pri:0, instance:org.perova.TicTacToe.CompAlgorTest@d70c109]" name="test_combineMatrix_2" duration-ms="26" started-at="2015-02-20T20:11:30Z" finished-at="2015-02-20T20:11:30Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_checkColumnsForWinnerWinnerIsInTheLastColumn -->
-        <test-method status="PASS" signature="test_checkColumnsForWinner_NoWinners()[pri:0, instance:org.perova.TicTacToe.AppTest@d70c109]" name="test_checkColumnsForWinner_NoWinners" duration-ms="1" started-at="2015-02-12T19:23:44Z" finished-at="2015-02-12T19:23:44Z">
+        </test-method> <!-- test_combineMatrix_2 -->
+        <test-method status="PASS" signature="test_combineMatrix_3()[pri:0, instance:org.perova.TicTacToe.CompAlgorTest@d70c109]" name="test_combineMatrix_3" duration-ms="1" started-at="2015-02-20T20:11:30Z" finished-at="2015-02-20T20:11:30Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_checkColumnsForWinner_NoWinners -->
-        <test-method status="PASS" signature="test_checkColumnsForWinner_WinnerIsInThe1stColumn()[pri:0, instance:org.perova.TicTacToe.AppTest@d70c109]" name="test_checkColumnsForWinner_WinnerIsInThe1stColumn" duration-ms="1" started-at="2015-02-12T19:23:44Z" finished-at="2015-02-12T19:23:44Z">
+        </test-method> <!-- test_combineMatrix_3 -->
+        <test-method status="PASS" signature="test_copyMatrix()[pri:0, instance:org.perova.TicTacToe.CompAlgorTest@d70c109]" name="test_copyMatrix" duration-ms="1" started-at="2015-02-20T20:11:30Z" finished-at="2015-02-20T20:11:30Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_checkColumnsForWinner_WinnerIsInThe1stColumn -->
-        <test-method status="PASS" signature="test_checkColumnsForWinner_WinnerIsInThe3rdColumn()[pri:0, instance:org.perova.TicTacToe.AppTest@d70c109]" name="test_checkColumnsForWinner_WinnerIsInThe3rdColumn" duration-ms="1" started-at="2015-02-12T19:23:44Z" finished-at="2015-02-12T19:23:44Z">
+        </test-method> <!-- test_copyMatrix -->
+        <test-method status="PASS" signature="test_countPlayerCells_Diagonal_LD()[pri:0, instance:org.perova.TicTacToe.CompAlgorTest@d70c109]" name="test_countPlayerCells_Diagonal_LD" duration-ms="1" started-at="2015-02-20T20:11:30Z" finished-at="2015-02-20T20:11:30Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_checkColumnsForWinner_WinnerIsInThe3rdColumn -->
-        <test-method status="PASS" signature="test_checkColumnsForWinner_WinnerIsInTheCrossing()[pri:0, instance:org.perova.TicTacToe.AppTest@d70c109]" name="test_checkColumnsForWinner_WinnerIsInTheCrossing" duration-ms="1" started-at="2015-02-12T19:23:44Z" finished-at="2015-02-12T19:23:44Z">
+        </test-method> <!-- test_countPlayerCells_Diagonal_LD -->
+        <test-method status="PASS" signature="test_countPlayerCells_Diagonal_LU()[pri:0, instance:org.perova.TicTacToe.CompAlgorTest@d70c109]" name="test_countPlayerCells_Diagonal_LU" duration-ms="1" started-at="2015-02-20T20:11:30Z" finished-at="2015-02-20T20:11:30Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_checkColumnsForWinner_WinnerIsInTheCrossing -->
-        <test-method status="PASS" signature="test_checkColumnsForWinner_WinnerIsInTheRow()[pri:0, instance:org.perova.TicTacToe.AppTest@d70c109]" name="test_checkColumnsForWinner_WinnerIsInTheRow" duration-ms="3" started-at="2015-02-12T19:23:44Z" finished-at="2015-02-12T19:23:44Z">
+        </test-method> <!-- test_countPlayerCells_Diagonal_LU -->
+        <test-method status="PASS" signature="test_countPlayerCells_Diagonal_Left()[pri:0, instance:org.perova.TicTacToe.CompAlgorTest@d70c109]" name="test_countPlayerCells_Diagonal_Left" duration-ms="1" started-at="2015-02-20T20:11:30Z" finished-at="2015-02-20T20:11:30Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_checkColumnsForWinner_WinnerIsInTheRow -->
-        <test-method status="PASS" signature="test_checkCrossesForWinner_NoWinners()[pri:0, instance:org.perova.TicTacToe.AppTest@d70c109]" name="test_checkCrossesForWinner_NoWinners" duration-ms="1" started-at="2015-02-12T19:23:44Z" finished-at="2015-02-12T19:23:44Z">
+        </test-method> <!-- test_countPlayerCells_Diagonal_Left -->
+        <test-method status="PASS" signature="test_countPlayerCells_Diagonal_RD()[pri:0, instance:org.perova.TicTacToe.CompAlgorTest@d70c109]" name="test_countPlayerCells_Diagonal_RD" duration-ms="1" started-at="2015-02-20T20:11:30Z" finished-at="2015-02-20T20:11:30Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_checkCrossesForWinner_NoWinners -->
-        <test-method status="PASS" signature="test_checkCrossesForWinner_WinnerIsInTheColumn()[pri:0, instance:org.perova.TicTacToe.AppTest@d70c109]" name="test_checkCrossesForWinner_WinnerIsInTheColumn" duration-ms="3" started-at="2015-02-12T19:23:44Z" finished-at="2015-02-12T19:23:44Z">
+        </test-method> <!-- test_countPlayerCells_Diagonal_RD -->
+        <test-method status="PASS" signature="test_countPlayerCells_Diagonal_RU()[pri:0, instance:org.perova.TicTacToe.CompAlgorTest@d70c109]" name="test_countPlayerCells_Diagonal_RU" duration-ms="1" started-at="2015-02-20T20:11:30Z" finished-at="2015-02-20T20:11:30Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_checkCrossesForWinner_WinnerIsInTheColumn -->
-        <test-method status="PASS" signature="test_checkCrossesForWinner_WinnerIsInTheLeftCrossing()[pri:0, instance:org.perova.TicTacToe.AppTest@d70c109]" name="test_checkCrossesForWinner_WinnerIsInTheLeftCrossing" duration-ms="1" started-at="2015-02-12T19:23:44Z" finished-at="2015-02-12T19:23:44Z">
+        </test-method> <!-- test_countPlayerCells_Diagonal_RU -->
+        <test-method status="PASS" signature="test_countPlayerCells_Diagonal_Right()[pri:0, instance:org.perova.TicTacToe.CompAlgorTest@d70c109]" name="test_countPlayerCells_Diagonal_Right" duration-ms="1" started-at="2015-02-20T20:11:30Z" finished-at="2015-02-20T20:11:30Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_checkCrossesForWinner_WinnerIsInTheLeftCrossing -->
-        <test-method status="PASS" signature="test_checkCrossesForWinner_WinnerIsInTheRightCrossing()[pri:0, instance:org.perova.TicTacToe.AppTest@d70c109]" name="test_checkCrossesForWinner_WinnerIsInTheRightCrossing" duration-ms="1" started-at="2015-02-12T19:23:44Z" finished-at="2015-02-12T19:23:44Z">
+        </test-method> <!-- test_countPlayerCells_Diagonal_Right -->
+        <test-method status="PASS" signature="test_countPlayerCells_Down()[pri:0, instance:org.perova.TicTacToe.CompAlgorTest@d70c109]" name="test_countPlayerCells_Down" duration-ms="1" started-at="2015-02-20T20:11:30Z" finished-at="2015-02-20T20:11:30Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_checkCrossesForWinner_WinnerIsInTheRightCrossing -->
-        <test-method status="PASS" signature="test_checkCrossesForWinner_WinnerIsInTheRow()[pri:0, instance:org.perova.TicTacToe.AppTest@d70c109]" name="test_checkCrossesForWinner_WinnerIsInTheRow" duration-ms="2" started-at="2015-02-12T19:23:44Z" finished-at="2015-02-12T19:23:44Z">
+        </test-method> <!-- test_countPlayerCells_Down -->
+        <test-method status="PASS" signature="test_countPlayerCells_Up()[pri:0, instance:org.perova.TicTacToe.CompAlgorTest@d70c109]" name="test_countPlayerCells_Up" duration-ms="2" started-at="2015-02-20T20:11:30Z" finished-at="2015-02-20T20:11:30Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_checkCrossesForWinner_WinnerIsInTheRow -->
-        <test-method status="PASS" signature="test_checkRowsForWinner_NoWinners()[pri:0, instance:org.perova.TicTacToe.AppTest@d70c109]" name="test_checkRowsForWinner_NoWinners" duration-ms="1" started-at="2015-02-12T19:23:44Z" finished-at="2015-02-12T19:23:44Z">
+        </test-method> <!-- test_countPlayerCells_Up -->
+        <test-method status="PASS" signature="test_createMatrixForDiagonalLine()[pri:0, instance:org.perova.TicTacToe.CompAlgorTest@d70c109]" name="test_createMatrixForDiagonalLine" duration-ms="1" started-at="2015-02-20T20:11:30Z" finished-at="2015-02-20T20:11:30Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_checkRowsForWinner_NoWinners -->
-        <test-method status="PASS" signature="test_checkRowsForWinner_WinnerIsInThe1stRow()[pri:0, instance:org.perova.TicTacToe.AppTest@d70c109]" name="test_checkRowsForWinner_WinnerIsInThe1stRow" duration-ms="1" started-at="2015-02-12T19:23:44Z" finished-at="2015-02-12T19:23:44Z">
+        </test-method> <!-- test_createMatrixForDiagonalLine -->
+        <test-method status="PASS" signature="test_createMatrixForHorizontalLine()[pri:0, instance:org.perova.TicTacToe.CompAlgorTest@d70c109]" name="test_createMatrixForHorizontalLine" duration-ms="1" started-at="2015-02-20T20:11:30Z" finished-at="2015-02-20T20:11:30Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_checkRowsForWinner_WinnerIsInThe1stRow -->
-        <test-method status="PASS" signature="test_checkRowsForWinner_WinnerIsInThe3rdRow()[pri:0, instance:org.perova.TicTacToe.AppTest@d70c109]" name="test_checkRowsForWinner_WinnerIsInThe3rdRow" duration-ms="1" started-at="2015-02-12T19:23:44Z" finished-at="2015-02-12T19:23:44Z">
+        </test-method> <!-- test_createMatrixForHorizontalLine -->
+        <test-method status="PASS" signature="test_createMatrixForVerticalLine()[pri:0, instance:org.perova.TicTacToe.CompAlgorTest@d70c109]" name="test_createMatrixForVerticalLine" duration-ms="1" started-at="2015-02-20T20:11:30Z" finished-at="2015-02-20T20:11:30Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_checkRowsForWinner_WinnerIsInThe3rdRow -->
-        <test-method status="PASS" signature="test_checkRowsForWinner_WinnerIsInTheColumn()[pri:0, instance:org.perova.TicTacToe.AppTest@d70c109]" name="test_checkRowsForWinner_WinnerIsInTheColumn" duration-ms="1" started-at="2015-02-12T19:23:44Z" finished-at="2015-02-12T19:23:44Z">
+        </test-method> <!-- test_createMatrixForVerticalLine -->
+        <test-method status="PASS" signature="test_firstStep()[pri:0, instance:org.perova.TicTacToe.CompAlgorTest@d70c109]" name="test_firstStep" duration-ms="1" started-at="2015-02-20T20:11:30Z" finished-at="2015-02-20T20:11:30Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_checkRowsForWinner_WinnerIsInTheColumn -->
-        <test-method status="PASS" signature="test_checkRowsForWinner_WinnerIsInTheCrossing()[pri:0, instance:org.perova.TicTacToe.AppTest@d70c109]" name="test_checkRowsForWinner_WinnerIsInTheCrossing" duration-ms="1" started-at="2015-02-12T19:23:44Z" finished-at="2015-02-12T19:23:44Z">
+        </test-method> <!-- test_firstStep -->
+        <test-method status="PASS" signature="test_isFieldEmpty_IsEmpty()[pri:0, instance:org.perova.TicTacToe.CompAlgorTest@d70c109]" name="test_isFieldEmpty_IsEmpty" duration-ms="1" started-at="2015-02-20T20:11:30Z" finished-at="2015-02-20T20:11:30Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_checkRowsForWinner_WinnerIsInTheCrossing -->
-        <test-method status="PASS" signature="test_checkRowsForWinner_WinnerIsInTheLastRow()[pri:0, instance:org.perova.TicTacToe.AppTest@d70c109]" name="test_checkRowsForWinner_WinnerIsInTheLastRow" duration-ms="1" started-at="2015-02-12T19:23:44Z" finished-at="2015-02-12T19:23:44Z">
+        </test-method> <!-- test_isFieldEmpty_IsEmpty -->
+        <test-method status="PASS" signature="test_isFieldEmpty_IsNotEmpty()[pri:0, instance:org.perova.TicTacToe.CompAlgorTest@d70c109]" name="test_isFieldEmpty_IsNotEmpty" duration-ms="0" started-at="2015-02-20T20:11:30Z" finished-at="2015-02-20T20:11:30Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_checkRowsForWinner_WinnerIsInTheLastRow -->
-        <test-method status="PASS" signature="test_findWinner_Column_WinerIs1()[pri:0, instance:org.perova.TicTacToe.AppTest@d70c109]" name="test_findWinner_Column_WinerIs1" duration-ms="2" started-at="2015-02-12T19:23:44Z" finished-at="2015-02-12T19:23:44Z">
+        </test-method> <!-- test_isFieldEmpty_IsNotEmpty -->
+        <test-method status="PASS" signature="test_isStepAvailable_00()[pri:0, instance:org.perova.TicTacToe.CompAlgorTest@d70c109]" name="test_isStepAvailable_00" duration-ms="1" started-at="2015-02-20T20:11:30Z" finished-at="2015-02-20T20:11:30Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_findWinner_Column_WinerIs1 -->
-        <test-method status="PASS" signature="test_findWinner_Column_WinerIs2()[pri:0, instance:org.perova.TicTacToe.AppTest@d70c109]" name="test_findWinner_Column_WinerIs2" duration-ms="1" started-at="2015-02-12T19:23:44Z" finished-at="2015-02-12T19:23:44Z">
+        </test-method> <!-- test_isStepAvailable_00 -->
+        <test-method status="PASS" signature="test_isStepAvailable_33()[pri:0, instance:org.perova.TicTacToe.CompAlgorTest@d70c109]" name="test_isStepAvailable_33" duration-ms="1" started-at="2015-02-20T20:11:30Z" finished-at="2015-02-20T20:11:30Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_findWinner_Column_WinerIs2 -->
-        <test-method status="PASS" signature="test_findWinner_Crosses_WinerIs1()[pri:0, instance:org.perova.TicTacToe.AppTest@d70c109]" name="test_findWinner_Crosses_WinerIs1" duration-ms="2" started-at="2015-02-12T19:23:44Z" finished-at="2015-02-12T19:23:44Z">
+        </test-method> <!-- test_isStepAvailable_33 -->
+        <test-method status="PASS" signature="test_isStepAvailable_LD()[pri:0, instance:org.perova.TicTacToe.CompAlgorTest@d70c109]" name="test_isStepAvailable_LD" duration-ms="2" started-at="2015-02-20T20:11:30Z" finished-at="2015-02-20T20:11:30Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_findWinner_Crosses_WinerIs1 -->
-        <test-method status="PASS" signature="test_findWinner_Crosses_WinerIs2()[pri:0, instance:org.perova.TicTacToe.AppTest@d70c109]" name="test_findWinner_Crosses_WinerIs2" duration-ms="1" started-at="2015-02-12T19:23:44Z" finished-at="2015-02-12T19:23:44Z">
+        </test-method> <!-- test_isStepAvailable_LD -->
+        <test-method status="PASS" signature="test_isStepAvailable_LU()[pri:0, instance:org.perova.TicTacToe.CompAlgorTest@d70c109]" name="test_isStepAvailable_LU" duration-ms="1" started-at="2015-02-20T20:11:30Z" finished-at="2015-02-20T20:11:30Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_findWinner_Crosses_WinerIs2 -->
-        <test-method status="PASS" signature="test_findWinner_Row_WinerIs1()[pri:0, instance:org.perova.TicTacToe.AppTest@d70c109]" name="test_findWinner_Row_WinerIs1" duration-ms="3" started-at="2015-02-12T19:23:44Z" finished-at="2015-02-12T19:23:44Z">
+        </test-method> <!-- test_isStepAvailable_LU -->
+        <test-method status="PASS" signature="test_isStepAvailable_RD()[pri:0, instance:org.perova.TicTacToe.CompAlgorTest@d70c109]" name="test_isStepAvailable_RD" duration-ms="1" started-at="2015-02-20T20:11:30Z" finished-at="2015-02-20T20:11:30Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_findWinner_Row_WinerIs1 -->
-        <test-method status="PASS" signature="test_findWinner_Row_WinerIs2()[pri:0, instance:org.perova.TicTacToe.AppTest@d70c109]" name="test_findWinner_Row_WinerIs2" duration-ms="2" started-at="2015-02-12T19:23:44Z" finished-at="2015-02-12T19:23:44Z">
+        </test-method> <!-- test_isStepAvailable_RD -->
+        <test-method status="PASS" signature="test_isStepAvailable_RU()[pri:0, instance:org.perova.TicTacToe.CompAlgorTest@d70c109]" name="test_isStepAvailable_RU" duration-ms="0" started-at="2015-02-20T20:11:30Z" finished-at="2015-02-20T20:11:30Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_findWinner_Row_WinerIs2 -->
-        <test-method status="PASS" signature="test_goTo_Left_CurrentCellIsEmpty_MakeStepOutOfBoundary()[pri:0, instance:org.perova.TicTacToe.AppTest@d70c109]" name="test_goTo_Left_CurrentCellIsEmpty_MakeStepOutOfBoundary" duration-ms="1" started-at="2015-02-12T19:23:44Z" finished-at="2015-02-12T19:23:44Z">
+        </test-method> <!-- test_isStepAvailable_RU -->
+        <test-method status="PASS" signature="test_maxElementInMatrix()[pri:0, instance:org.perova.TicTacToe.CompAlgorTest@d70c109]" name="test_maxElementInMatrix" duration-ms="1" started-at="2015-02-20T20:11:30Z" finished-at="2015-02-20T20:11:30Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_goTo_Left_CurrentCellIsEmpty_MakeStepOutOfBoundary -->
-        <test-method status="PASS" signature="test_goTo_Left_JustFourElementInLine()[pri:0, instance:org.perova.TicTacToe.AppTest@d70c109]" name="test_goTo_Left_JustFourElementInLine" duration-ms="1" started-at="2015-02-12T19:23:44Z" finished-at="2015-02-12T19:23:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_goTo_Left_JustFourElementInLine -->
-        <test-method status="PASS" signature="test_goTo_Left_JustOneElementInLine()[pri:0, instance:org.perova.TicTacToe.AppTest@d70c109]" name="test_goTo_Left_JustOneElementInLine" duration-ms="1" started-at="2015-02-12T19:23:44Z" finished-at="2015-02-12T19:23:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_goTo_Left_JustOneElementInLine -->
-        <test-method status="PASS" signature="test_goTo_Left_OneIsAWinnerInCrossing()[pri:0, instance:org.perova.TicTacToe.AppTest@d70c109]" name="test_goTo_Left_OneIsAWinnerInCrossing" duration-ms="0" started-at="2015-02-12T19:23:44Z" finished-at="2015-02-12T19:23:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_goTo_Left_OneIsAWinnerInCrossing -->
-        <test-method status="PASS" signature="test_goTo_Left_TwoIsAWinnerInCrossing()[pri:0, instance:org.perova.TicTacToe.AppTest@d70c109]" name="test_goTo_Left_TwoIsAWinnerInCrossing" duration-ms="1" started-at="2015-02-12T19:23:44Z" finished-at="2015-02-12T19:23:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_goTo_Left_TwoIsAWinnerInCrossing -->
-        <test-method status="PASS" signature="test_goTo_Right_CurrentCellIsEmpty_MakeStepOutOfBoundary()[pri:0, instance:org.perova.TicTacToe.AppTest@d70c109]" name="test_goTo_Right_CurrentCellIsEmpty_MakeStepOutOfBoundary" duration-ms="1" started-at="2015-02-12T19:23:44Z" finished-at="2015-02-12T19:23:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_goTo_Right_CurrentCellIsEmpty_MakeStepOutOfBoundary -->
-        <test-method status="PASS" signature="test_goTo_Right_JustFourElementInLine()[pri:0, instance:org.perova.TicTacToe.AppTest@d70c109]" name="test_goTo_Right_JustFourElementInLine" duration-ms="1" started-at="2015-02-12T19:23:44Z" finished-at="2015-02-12T19:23:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_goTo_Right_JustFourElementInLine -->
-        <test-method status="PASS" signature="test_goTo_Right_JustOneElementInLine()[pri:0, instance:org.perova.TicTacToe.AppTest@d70c109]" name="test_goTo_Right_JustOneElementInLine" duration-ms="1" started-at="2015-02-12T19:23:44Z" finished-at="2015-02-12T19:23:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_goTo_Right_JustOneElementInLine -->
-        <test-method status="PASS" signature="test_goTo_Right_OneIsAWinnerInLine()[pri:0, instance:org.perova.TicTacToe.AppTest@d70c109]" name="test_goTo_Right_OneIsAWinnerInLine" duration-ms="0" started-at="2015-02-12T19:23:44Z" finished-at="2015-02-12T19:23:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_goTo_Right_OneIsAWinnerInLine -->
-        <test-method status="PASS" signature="test_goTo_Right_TwoIsAWinnerInLine()[pri:0, instance:org.perova.TicTacToe.AppTest@d70c109]" name="test_goTo_Right_TwoIsAWinnerInLine" duration-ms="0" started-at="2015-02-12T19:23:44Z" finished-at="2015-02-12T19:23:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_goTo_Right_TwoIsAWinnerInLine -->
-      </class> <!-- org.perova.TicTacToe.AppTest -->
+        </test-method> <!-- test_maxElementInMatrix -->
+      </class> <!-- org.perova.TicTacToe.CompAlgorTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

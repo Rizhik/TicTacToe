@@ -17,12 +17,7 @@ public class App {
 		this.currentPlayer = currentPlayer;
 	}
 
-	protected App() {
-		System.out.println("Input field SIZE by X: ");
-		int sizeByX = sc.nextInt();
-
-		System.out.println("Input field SIZE by Y: ");
-		int sizeByY = sc.nextInt();
+	protected App(int sizeByX, int sizeByY) {
 
 		int[][] newField = new int[sizeByX][sizeByY];
 		for (int i = 0; i < sizeByX; i++) {
@@ -75,7 +70,7 @@ public class App {
 		return field;
 	}
 
-	protected int goTo(int currentRow, int currentColumn, int step) {
+	protected int countPlayerCells(int currentRow, int currentColumn, int offset) {
 		int numberOfElements = 0;
 		int currentElement = 0;
 
@@ -86,10 +81,10 @@ public class App {
 			int stepCounter = 1;
 			while (stepCounter != 5) {
 				if (((currentRow + stepCounter) < field.length)
-						&& (currentColumn + step * stepCounter >= 0)
-						&& ((currentColumn + step * stepCounter) < field[currentRow].length)
+						&& (currentColumn + offset * stepCounter >= 0)
+						&& ((currentColumn + offset * stepCounter) < field[currentRow].length)
 						&& (currentElement == field[currentRow + stepCounter][currentColumn
-								+ step * stepCounter])) {
+								+ offset * stepCounter])) {
 					numberOfElements++;
 
 				} else {
@@ -112,13 +107,13 @@ public class App {
 			for (int column = 0; column < field[row].length; column++) {
 
 				// Go right
-				int rightResult = goTo(row, column, 1);
+				int rightResult = countPlayerCells(row, column, 1);
 
 				if (rightResult != 0) {
 					return rightResult;
 				}
 				// Go left
-				int leftResult = goTo(row, column, -1);
+				int leftResult = countPlayerCells(row, column, -1);
 
 				if (leftResult != 0) {
 					return leftResult;
@@ -254,7 +249,7 @@ public class App {
 	}
 
 	public static void main(String[] args) {
-		App myGame = new App();
+		App myGame = new App(5, 5);
 		myGame.startGame();
 	}
 }
