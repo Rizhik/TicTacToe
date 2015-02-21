@@ -40,13 +40,22 @@ public class App {
 
 	protected int[] requestCoordinate(int playerId) {
 		int[] coordinates = new int[2];
-		System.out.print("Please, input coordinate X for " + playerId + ": ");
 
-		coordinates[0] = sc.nextInt();
+		CompAlgor ai = new CompAlgor();
+		int[] step = ai.makeStep(field, playerId);
 
-		System.out.print("Please, input coordinate Y for " + playerId + ": ");
-		coordinates[1] = sc.nextInt();
+		System.out.print("Player " + playerId
+				+ "! Please, input coordinate for X: ");
 
+		coordinates[0] = step[1];
+		// coordinates[0] = sc.nextInt();
+
+		System.out.println();
+		System.out.print("Player " + playerId
+				+ "! Please, input coordinate for Y: ");
+		coordinates[1] = step[2];
+		// coordinates[1] = sc.nextInt();
+		System.out.println();
 		return coordinates;
 	}
 

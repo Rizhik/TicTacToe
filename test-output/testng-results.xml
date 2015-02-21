@@ -1,105 +1,101 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="24" passed="24">
+<testng-results skipped="0" failed="0" total="23" passed="23">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="91" started-at="2015-02-21T04:11:30Z" finished-at="2015-02-21T04:11:30Z">
+  <suite name="Default suite" duration-ms="192" started-at="2015-02-21T18:47:46Z" finished-at="2015-02-21T18:47:46Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="91" started-at="2015-02-21T04:11:30Z" finished-at="2015-02-21T04:11:30Z">
+    <test name="Default test" duration-ms="192" started-at="2015-02-21T18:47:46Z" finished-at="2015-02-21T18:47:46Z">
       <class name="org.perova.TicTacToe.CompAlgorTest">
-        <test-method status="PASS" signature="test_combineMatrix_2()[pri:0, instance:org.perova.TicTacToe.CompAlgorTest@d70c109]" name="test_combineMatrix_2" duration-ms="26" started-at="2015-02-20T20:11:30Z" finished-at="2015-02-20T20:11:30Z">
+        <test-method status="PASS" signature="test_combineMatrix_2()[pri:0, instance:org.perova.TicTacToe.CompAlgorTest@d70c109]" name="test_combineMatrix_2" duration-ms="61" started-at="2015-02-21T10:47:46Z" finished-at="2015-02-21T10:47:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_combineMatrix_2 -->
-        <test-method status="PASS" signature="test_combineMatrix_3()[pri:0, instance:org.perova.TicTacToe.CompAlgorTest@d70c109]" name="test_combineMatrix_3" duration-ms="1" started-at="2015-02-20T20:11:30Z" finished-at="2015-02-20T20:11:30Z">
+        <test-method status="PASS" signature="test_combineMatrix_3()[pri:0, instance:org.perova.TicTacToe.CompAlgorTest@d70c109]" name="test_combineMatrix_3" duration-ms="2" started-at="2015-02-21T10:47:46Z" finished-at="2015-02-21T10:47:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_combineMatrix_3 -->
-        <test-method status="PASS" signature="test_copyMatrix()[pri:0, instance:org.perova.TicTacToe.CompAlgorTest@d70c109]" name="test_copyMatrix" duration-ms="1" started-at="2015-02-20T20:11:30Z" finished-at="2015-02-20T20:11:30Z">
+        <test-method status="PASS" signature="test_copyMatrix()[pri:0, instance:org.perova.TicTacToe.CompAlgorTest@d70c109]" name="test_copyMatrix" duration-ms="3" started-at="2015-02-21T10:47:46Z" finished-at="2015-02-21T10:47:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_copyMatrix -->
-        <test-method status="PASS" signature="test_countPlayerCells_Diagonal_LD()[pri:0, instance:org.perova.TicTacToe.CompAlgorTest@d70c109]" name="test_countPlayerCells_Diagonal_LD" duration-ms="1" started-at="2015-02-20T20:11:30Z" finished-at="2015-02-20T20:11:30Z">
+        <test-method status="PASS" signature="test_countPlayerCells_Diagonal_LD()[pri:0, instance:org.perova.TicTacToe.CompAlgorTest@d70c109]" name="test_countPlayerCells_Diagonal_LD" duration-ms="3" started-at="2015-02-21T10:47:46Z" finished-at="2015-02-21T10:47:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_countPlayerCells_Diagonal_LD -->
-        <test-method status="PASS" signature="test_countPlayerCells_Diagonal_LU()[pri:0, instance:org.perova.TicTacToe.CompAlgorTest@d70c109]" name="test_countPlayerCells_Diagonal_LU" duration-ms="1" started-at="2015-02-20T20:11:30Z" finished-at="2015-02-20T20:11:30Z">
+        <test-method status="PASS" signature="test_countPlayerCells_Diagonal_LU()[pri:0, instance:org.perova.TicTacToe.CompAlgorTest@d70c109]" name="test_countPlayerCells_Diagonal_LU" duration-ms="5" started-at="2015-02-21T10:47:46Z" finished-at="2015-02-21T10:47:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_countPlayerCells_Diagonal_LU -->
-        <test-method status="PASS" signature="test_countPlayerCells_Diagonal_Left()[pri:0, instance:org.perova.TicTacToe.CompAlgorTest@d70c109]" name="test_countPlayerCells_Diagonal_Left" duration-ms="1" started-at="2015-02-20T20:11:30Z" finished-at="2015-02-20T20:11:30Z">
+        <test-method status="PASS" signature="test_countPlayerCells_Diagonal_Left()[pri:0, instance:org.perova.TicTacToe.CompAlgorTest@d70c109]" name="test_countPlayerCells_Diagonal_Left" duration-ms="2" started-at="2015-02-21T10:47:46Z" finished-at="2015-02-21T10:47:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_countPlayerCells_Diagonal_Left -->
-        <test-method status="PASS" signature="test_countPlayerCells_Diagonal_RD()[pri:0, instance:org.perova.TicTacToe.CompAlgorTest@d70c109]" name="test_countPlayerCells_Diagonal_RD" duration-ms="1" started-at="2015-02-20T20:11:30Z" finished-at="2015-02-20T20:11:30Z">
+        <test-method status="PASS" signature="test_countPlayerCells_Diagonal_RD()[pri:0, instance:org.perova.TicTacToe.CompAlgorTest@d70c109]" name="test_countPlayerCells_Diagonal_RD" duration-ms="1" started-at="2015-02-21T10:47:46Z" finished-at="2015-02-21T10:47:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_countPlayerCells_Diagonal_RD -->
-        <test-method status="PASS" signature="test_countPlayerCells_Diagonal_RU()[pri:0, instance:org.perova.TicTacToe.CompAlgorTest@d70c109]" name="test_countPlayerCells_Diagonal_RU" duration-ms="1" started-at="2015-02-20T20:11:30Z" finished-at="2015-02-20T20:11:30Z">
+        <test-method status="PASS" signature="test_countPlayerCells_Diagonal_RU()[pri:0, instance:org.perova.TicTacToe.CompAlgorTest@d70c109]" name="test_countPlayerCells_Diagonal_RU" duration-ms="1" started-at="2015-02-21T10:47:46Z" finished-at="2015-02-21T10:47:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_countPlayerCells_Diagonal_RU -->
-        <test-method status="PASS" signature="test_countPlayerCells_Diagonal_Right()[pri:0, instance:org.perova.TicTacToe.CompAlgorTest@d70c109]" name="test_countPlayerCells_Diagonal_Right" duration-ms="1" started-at="2015-02-20T20:11:30Z" finished-at="2015-02-20T20:11:30Z">
+        <test-method status="PASS" signature="test_countPlayerCells_Diagonal_Right()[pri:0, instance:org.perova.TicTacToe.CompAlgorTest@d70c109]" name="test_countPlayerCells_Diagonal_Right" duration-ms="2" started-at="2015-02-21T10:47:46Z" finished-at="2015-02-21T10:47:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_countPlayerCells_Diagonal_Right -->
-        <test-method status="PASS" signature="test_countPlayerCells_Down()[pri:0, instance:org.perova.TicTacToe.CompAlgorTest@d70c109]" name="test_countPlayerCells_Down" duration-ms="1" started-at="2015-02-20T20:11:30Z" finished-at="2015-02-20T20:11:30Z">
+        <test-method status="PASS" signature="test_countPlayerCells_Down()[pri:0, instance:org.perova.TicTacToe.CompAlgorTest@d70c109]" name="test_countPlayerCells_Down" duration-ms="2" started-at="2015-02-21T10:47:46Z" finished-at="2015-02-21T10:47:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_countPlayerCells_Down -->
-        <test-method status="PASS" signature="test_countPlayerCells_Up()[pri:0, instance:org.perova.TicTacToe.CompAlgorTest@d70c109]" name="test_countPlayerCells_Up" duration-ms="2" started-at="2015-02-20T20:11:30Z" finished-at="2015-02-20T20:11:30Z">
+        <test-method status="PASS" signature="test_countPlayerCells_Up()[pri:0, instance:org.perova.TicTacToe.CompAlgorTest@d70c109]" name="test_countPlayerCells_Up" duration-ms="1" started-at="2015-02-21T10:47:46Z" finished-at="2015-02-21T10:47:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_countPlayerCells_Up -->
-        <test-method status="PASS" signature="test_createMatrixForDiagonalLine()[pri:0, instance:org.perova.TicTacToe.CompAlgorTest@d70c109]" name="test_createMatrixForDiagonalLine" duration-ms="1" started-at="2015-02-20T20:11:30Z" finished-at="2015-02-20T20:11:30Z">
+        <test-method status="PASS" signature="test_createMatrixForDiagonalLine()[pri:0, instance:org.perova.TicTacToe.CompAlgorTest@d70c109]" name="test_createMatrixForDiagonalLine" duration-ms="4" started-at="2015-02-21T10:47:46Z" finished-at="2015-02-21T10:47:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_createMatrixForDiagonalLine -->
-        <test-method status="PASS" signature="test_createMatrixForHorizontalLine()[pri:0, instance:org.perova.TicTacToe.CompAlgorTest@d70c109]" name="test_createMatrixForHorizontalLine" duration-ms="1" started-at="2015-02-20T20:11:30Z" finished-at="2015-02-20T20:11:30Z">
+        <test-method status="PASS" signature="test_createMatrixForHorizontalLine()[pri:0, instance:org.perova.TicTacToe.CompAlgorTest@d70c109]" name="test_createMatrixForHorizontalLine" duration-ms="1" started-at="2015-02-21T10:47:46Z" finished-at="2015-02-21T10:47:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_createMatrixForHorizontalLine -->
-        <test-method status="PASS" signature="test_createMatrixForVerticalLine()[pri:0, instance:org.perova.TicTacToe.CompAlgorTest@d70c109]" name="test_createMatrixForVerticalLine" duration-ms="1" started-at="2015-02-20T20:11:30Z" finished-at="2015-02-20T20:11:30Z">
+        <test-method status="PASS" signature="test_createMatrixForVerticalLine()[pri:0, instance:org.perova.TicTacToe.CompAlgorTest@d70c109]" name="test_createMatrixForVerticalLine" duration-ms="2" started-at="2015-02-21T10:47:46Z" finished-at="2015-02-21T10:47:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_createMatrixForVerticalLine -->
-        <test-method status="PASS" signature="test_firstStep()[pri:0, instance:org.perova.TicTacToe.CompAlgorTest@d70c109]" name="test_firstStep" duration-ms="1" started-at="2015-02-20T20:11:30Z" finished-at="2015-02-20T20:11:30Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_firstStep -->
-        <test-method status="PASS" signature="test_isFieldEmpty_IsEmpty()[pri:0, instance:org.perova.TicTacToe.CompAlgorTest@d70c109]" name="test_isFieldEmpty_IsEmpty" duration-ms="1" started-at="2015-02-20T20:11:30Z" finished-at="2015-02-20T20:11:30Z">
+        <test-method status="PASS" signature="test_isFieldEmpty_IsEmpty()[pri:0, instance:org.perova.TicTacToe.CompAlgorTest@d70c109]" name="test_isFieldEmpty_IsEmpty" duration-ms="1" started-at="2015-02-21T10:47:46Z" finished-at="2015-02-21T10:47:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_isFieldEmpty_IsEmpty -->
-        <test-method status="PASS" signature="test_isFieldEmpty_IsNotEmpty()[pri:0, instance:org.perova.TicTacToe.CompAlgorTest@d70c109]" name="test_isFieldEmpty_IsNotEmpty" duration-ms="0" started-at="2015-02-20T20:11:30Z" finished-at="2015-02-20T20:11:30Z">
+        <test-method status="PASS" signature="test_isFieldEmpty_IsNotEmpty()[pri:0, instance:org.perova.TicTacToe.CompAlgorTest@d70c109]" name="test_isFieldEmpty_IsNotEmpty" duration-ms="1" started-at="2015-02-21T10:47:46Z" finished-at="2015-02-21T10:47:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_isFieldEmpty_IsNotEmpty -->
-        <test-method status="PASS" signature="test_isStepAvailable_00()[pri:0, instance:org.perova.TicTacToe.CompAlgorTest@d70c109]" name="test_isStepAvailable_00" duration-ms="1" started-at="2015-02-20T20:11:30Z" finished-at="2015-02-20T20:11:30Z">
+        <test-method status="PASS" signature="test_isStepAvailable_00()[pri:0, instance:org.perova.TicTacToe.CompAlgorTest@d70c109]" name="test_isStepAvailable_00" duration-ms="1" started-at="2015-02-21T10:47:46Z" finished-at="2015-02-21T10:47:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_isStepAvailable_00 -->
-        <test-method status="PASS" signature="test_isStepAvailable_33()[pri:0, instance:org.perova.TicTacToe.CompAlgorTest@d70c109]" name="test_isStepAvailable_33" duration-ms="1" started-at="2015-02-20T20:11:30Z" finished-at="2015-02-20T20:11:30Z">
+        <test-method status="PASS" signature="test_isStepAvailable_33()[pri:0, instance:org.perova.TicTacToe.CompAlgorTest@d70c109]" name="test_isStepAvailable_33" duration-ms="2" started-at="2015-02-21T10:47:46Z" finished-at="2015-02-21T10:47:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_isStepAvailable_33 -->
-        <test-method status="PASS" signature="test_isStepAvailable_LD()[pri:0, instance:org.perova.TicTacToe.CompAlgorTest@d70c109]" name="test_isStepAvailable_LD" duration-ms="2" started-at="2015-02-20T20:11:30Z" finished-at="2015-02-20T20:11:30Z">
+        <test-method status="PASS" signature="test_isStepAvailable_LD()[pri:0, instance:org.perova.TicTacToe.CompAlgorTest@d70c109]" name="test_isStepAvailable_LD" duration-ms="1" started-at="2015-02-21T10:47:46Z" finished-at="2015-02-21T10:47:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_isStepAvailable_LD -->
-        <test-method status="PASS" signature="test_isStepAvailable_LU()[pri:0, instance:org.perova.TicTacToe.CompAlgorTest@d70c109]" name="test_isStepAvailable_LU" duration-ms="1" started-at="2015-02-20T20:11:30Z" finished-at="2015-02-20T20:11:30Z">
+        <test-method status="PASS" signature="test_isStepAvailable_LU()[pri:0, instance:org.perova.TicTacToe.CompAlgorTest@d70c109]" name="test_isStepAvailable_LU" duration-ms="1" started-at="2015-02-21T10:47:46Z" finished-at="2015-02-21T10:47:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_isStepAvailable_LU -->
-        <test-method status="PASS" signature="test_isStepAvailable_RD()[pri:0, instance:org.perova.TicTacToe.CompAlgorTest@d70c109]" name="test_isStepAvailable_RD" duration-ms="1" started-at="2015-02-20T20:11:30Z" finished-at="2015-02-20T20:11:30Z">
+        <test-method status="PASS" signature="test_isStepAvailable_RD()[pri:0, instance:org.perova.TicTacToe.CompAlgorTest@d70c109]" name="test_isStepAvailable_RD" duration-ms="1" started-at="2015-02-21T10:47:46Z" finished-at="2015-02-21T10:47:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_isStepAvailable_RD -->
-        <test-method status="PASS" signature="test_isStepAvailable_RU()[pri:0, instance:org.perova.TicTacToe.CompAlgorTest@d70c109]" name="test_isStepAvailable_RU" duration-ms="0" started-at="2015-02-20T20:11:30Z" finished-at="2015-02-20T20:11:30Z">
+        <test-method status="PASS" signature="test_isStepAvailable_RU()[pri:0, instance:org.perova.TicTacToe.CompAlgorTest@d70c109]" name="test_isStepAvailable_RU" duration-ms="1" started-at="2015-02-21T10:47:46Z" finished-at="2015-02-21T10:47:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_isStepAvailable_RU -->
-        <test-method status="PASS" signature="test_maxElementInMatrix()[pri:0, instance:org.perova.TicTacToe.CompAlgorTest@d70c109]" name="test_maxElementInMatrix" duration-ms="1" started-at="2015-02-20T20:11:30Z" finished-at="2015-02-20T20:11:30Z">
+        <test-method status="PASS" signature="test_maxElementInMatrix()[pri:0, instance:org.perova.TicTacToe.CompAlgorTest@d70c109]" name="test_maxElementInMatrix" duration-ms="0" started-at="2015-02-21T10:47:46Z" finished-at="2015-02-21T10:47:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_maxElementInMatrix -->
